@@ -1,1 +1,58 @@
+# ==== Sistema operativo (macOS, Linux, Windows) ====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ==== Python ====
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ==== Logs ====
+*.log
+
+# ==== IDEs / editores ====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==== Compilados / temporales ====
+*.out
+*.o
+*.so
+*.class
+*.jar
+
+# ==== Node (si lo usas para frontend) ====
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ==== Otros ====
+*.bak
+*.tmp
