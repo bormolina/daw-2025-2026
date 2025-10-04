@@ -72,6 +72,13 @@ main{
     inset 0 1px 0 rgba(255,255,255,0.04);
 }
 
+#boton_sumar:disabled, #boton_restar:disabled, #boton_contar:disabled {
+  background-color: #ccc  !important ;  /* gris */
+  color: #666  !important ;
+  cursor: not-allowed  !important ;      /* icono de prohibido */
+  opacity: 0.6  !important ;             /* más apagado */
+}
+
 /* Tira de controles */
 #boton_sumar, #boton_restar, #boton_contar{
   all: unset;
@@ -167,7 +174,7 @@ main > #boton_restar{
 /* “RING RING” con vibe de alerta sutil para la cámara */
 #ring_ring{
   margin-top: 8px;
-  font-size: 5em;
+  font-size: 3em;
   color: var(--muted);
   letter-spacing: 0.3px;
   opacity: 0.0;
