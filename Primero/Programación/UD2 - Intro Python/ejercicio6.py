@@ -1,6 +1,6 @@
-lugarResidencia = input("¿Dónde vives?")
+provincia = input("Dime tu provincia: ")
 
-if  lugarResidencia == "Granada" or lugarResidencia == "Sevilla" or lugarResidencia == "Córdoba" or lugarResidencia == "Cádiz" or lugarResidencia == "Huelva" or lugarResidencia == "Almeria" or lugarResidencia == "Jaén" or lugarResidencia == "Málaga":
-    print("Holaaaaaaaaaaaaa!")
+if provincia == "Granada" or provincia == "Huelva" or provincia == "Sevilla" or provincia == "Córdoba" or provincia == "Jaén" or provincia == "Málaga" or provincia == "Almería" or provincia == "Cádiz":
+    print("Eres andaluz")
 else:
-    print("Adios")
+    print("Eres guiri")
