@@ -1,16 +1,16 @@
 nTerminos = int(input("¿Cuántos términos quieres?"))
-i = 1
+i = 0
 
 while i<=nTerminos:
-    if i == 1:
+    if i == 0:
         terminoAnterior = 0
         print(terminoAnterior)
 
-    if i == 2:
+    if i == 1:
         terminoActual = 1
         print(terminoActual)
 
-    if i >= 3:
+    if i >= 2:
         nuevoTermino = terminoAnterior+terminoActual
         print(nuevoTermino)
         terminoAnterior = terminoActual

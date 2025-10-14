@@ -1,7 +1,6 @@
-suma = 0
-while True:
-    num = int(input("Inserta un número: "))
-    if num == 0:
-        break
-    suma = suma + num
-print(f"La suma de los números introducidos es: {suma}")
+texto = "Hola amigo"
+sum = 0
+for letra in texto:
+    if letra == "a":
+        sum = sum + 1
+print(sum)
