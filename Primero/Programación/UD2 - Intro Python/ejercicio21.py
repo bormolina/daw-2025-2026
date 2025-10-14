@@ -1,5 +1,5 @@
 #tipoVia = {Autovía, Nacional}
-tipoVia = "Nacional"
+tipoVia = "Autovía"
 #tipoVehiculo = {"Coche", "Bus", "Camión"}
 tipoVehiculo = "Bus"
 

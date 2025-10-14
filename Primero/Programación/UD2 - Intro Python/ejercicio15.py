@@ -1,4 +1,4 @@
-print("¿Qué quieres calcular?")
+print("¿Qué área quieres calcular?")
 print("1. Triángulo")
 print("2. Rectángulo")
 print("3. Circunferencia")

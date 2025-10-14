@@ -5,8 +5,8 @@ print("3. Multiplicar")
 print("4. Dividir")
 opcion = int(input())
 
-num1 = int(input("Introduce el primer número"))
-num2 = int(input("Introduce el segundo número"))
+num1 = int(input("Introduce el primer número: "))
+num2 = int(input("Introduce el segundo número: "))
 
 if opcion == 1:
     print(f"{num1} + {num2} = {num1+num2}")
