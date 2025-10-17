@@ -9,7 +9,7 @@ while not numeroCorrecto:
         print("El número ha de ser positivo")
 
 # Realizamos la cuenta atrás
-while num != -1:
+while num != -15:
     print(num)
     num = num - 1
 print("Ring ring")
