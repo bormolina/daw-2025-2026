@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrera de Animales 🏁</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      text-align: center;
+      background: #fefce8;
+      color: #3f3f46;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    .pista {
+      position: relative;
+      width: 85%;
+      height: 270px;
+      margin: 40px auto;
+      border: 2px dashed #2563eb;
+      border-radius: 10px;
+      background: white;
+      overflow: hidden;
+    }
+
+    .animal {
+      position: absolute;
+      left: 0;
+      font-size: 2.2rem;
+      transition: transform 0.1s linear;
+    }
+
+    /* Posiciones en pista */
+    #a1 { top: 20px; }
+    #a2 { top: 65px; }
+    #a3 { top: 110px; }
+    #a4 { top: 155px; }
+    #a5 { top: 200px; }
+    #a6 { top: 245px; }
+
+    #resultado {
+      font-size: 1.4rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏁 Carrera de Animales 🐢🐱🐶🦦🦊🐸</h1>
+  <button id="btnCorrer">¡Comenzar carrera!</button>
+
+  <div class="pista">
+    <div class="animal" id="a1">🐢</div>
+    <div class="animal" id="a2">🐱</div>
+    <div class="animal" id="a3">🐶</div>
+    <div class="animal" id="a4">🦦</div>
+    <div class="animal" id="a5">🦊</div>
+    <div class="animal" id="a6">🐸</div>
+  </div>
+
+  <div id="resultado">Esperando el inicio...</div>
+
+  <script>
+    // Simula una carrera con velocidad variable
+    function correrAnimal(id, nombre) {
+      return new Promise((resolve) => {
+        const animal = document.getElementById(id);
+        const meta = document.querySelector(".pista").offsetWidth - 60;
+
+        let x = 0;
+        let velocidad = Math.random() * 3 + 1;
+
+        function mover() {
+          velocidad += (Math.random() - 0.5) * 1.2; // cambia la velocidad constantemente
+          velocidad = Math.max(0.5, Math.min(velocidad, 5));
+
+          x += velocidad;
+          animal.style.transform = `translateX(${x}px)`;
+
+          if (x < meta) {
+            requestAnimationFrame(mover);
+          } else {
+            resolve(nombre);
+          }
+        }
+
+        mover();
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.querySelector("#btnCorrer");
+      const resultado = document.querySelector("#resultado");
+
+      btn.addEventListener("click", async () => {
+        resultado.textContent = "🏁 ¡Empieza la carrera!";
+        btn.disabled = true;
+
+        // Reiniciamos posiciones
+        document.querySelectorAll(".animal").forEach(a => a.style.transform = "translateX(0)");
+
+        const nombres = ["Tortuga", "Gato", "Perro", "Nutria", "Zorro", "Rana"];
+
+        const promesas = nombres.map((nombre, i) => correrAnimal(`a${i + 1}`, nombre));
+
+        const ganadora = await Promise.race(promesas);
+        resultado.textContent = `🎉 ¡${ganadora} ha ganado la carrera!`;
+        btn.disabled = false;
+      });
+    });
+  </script>
+</body>
+</html>
