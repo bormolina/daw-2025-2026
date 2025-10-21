@@ -7,8 +7,10 @@ while True:
     b = float(input("Inserta el término b: "))
     c = float(input("Inserta el término c: "))
 
-    solucion1 = (-b+math.sqrt(b*b-4*a*c))/2*a
-    solucion2 = (-b-math.sqrt(b*b-4*a*c))/2*a
+    discriminante = math.sqrt(b*b-4*a*c)
+    denominador = 2*a
+    solucion1 = (-b+ discriminante)/denominador
+    solucion2 = (-b- discriminante)/denominador
 
     print(f"Para la ecuación: {a}*x² + {b}x + {c}, las soluciones son:")
     print(f"Solución 1 = {solucion1}")

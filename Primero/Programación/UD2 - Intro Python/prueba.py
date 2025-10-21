@@ -1,9 +1,8 @@
-import geometria
 import random
 
-while True:
-    num = random.random()
-    print(num)
-    if num == 0.5:
-        break
-
+def lanzarDados(nDados: int):
+    for i in range(1, nDados+1):
+        tirada = random.randint(1, 6)
+        print(f"Tirada {i} -- resultado: {tirada}")
+   
+lanzarDados(500)
