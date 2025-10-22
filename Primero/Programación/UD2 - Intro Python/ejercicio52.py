@@ -1,4 +1,5 @@
 import random
+
 def caraCruz(nVeces: int):
     for i in range(nVeces):
         num = random.randint(0, 1)
