@@ -21,9 +21,13 @@ def generarCuenta(inicial, final):
 
 for i in range(10):
     resultado = generarCuenta(1, 10)
-    respuesta = int(input("Tu respuesta: "))
 
-    if resultado == respuesta:
-        print("Correcto, has acertado!")
-    else:
+    try:    
+        respuesta = int(input("Tu respuesta: "))
+    except Exception as _:
         print("Incorrecto!")
+    else:
+        if resultado == respuesta:
+            print("Correcto, has acertado!")
+        else:
+            print("Incorrecto!")
