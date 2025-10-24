@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: flask_sqlite_5051
+    ports:
+      - "5051:5051"
+    env_file:
+      - .env.dev
+    volumes:
+      - .:/app # <-- monta el código local en el contenedor, permite hot reload
+      - ./data:/data
+    restart: unless-stopped
