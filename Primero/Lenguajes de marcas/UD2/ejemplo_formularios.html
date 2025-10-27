@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplos de formularios</h1>
+    <article>
+        <h2>Formulario de ejemplo</h2>
+        <form action="login.php">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: Ana López">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad">
+            <br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+            <br>
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="clave" name="clave">
+            <br>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+            <label for="cv">Subir CV:</label>
+            <input type="file" id="cv" name="cv">
+            <br>
+            <label for="satisfaccion">Nivel de satisfacción (0 a 10):</label>
+            <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="10">
+            <br>
+            <fieldset>
+                <legend>Género</legend>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Intereses</legend>
+                <input type="checkbox" id="deporte" name="intereses" value="deporte">
+                <label for="deporte">Deporte</label>
+                <input type="checkbox" id="musica" name="intereses" value="musica">
+                <label for="musica">Música</label>
+                <input type="checkbox" id="viajes" name="intereses" value="viajes">
+                <label for="viajes">Viajes</label>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </article>
+    
+    <article>
+        <h2>Formulario de Login</h2>
+        <form action="">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo">
+            <br>
+            <label for="pass">Constraseña: </label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </article>
+
+    <article>
+        <h2>Formulario de registro</h2>
+        <form action="">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo">
+            <br>
+            <label for="nombre">Nombre completo: </label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="pass">Constraseña: </label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <label for="pass2">Repite la constraseña: </label>
+            <input type="password" id="pass2" name="pass2">
+            <br>
+            <label for="fechaNacimiento">Fecha de nacimiento: </label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+            <br>
+            <input type="checkbox" id="mayorEdad" name="mayorEdad" value="1">
+            <label for="mayorEdad">Confirmo que soy mayor de edad</label>
+            <br>
+            <input type="checkbox" id="masInfo" name="masInfo" value="1">
+            <label for="masInfo">Quiero recibir información</button>
+            <br>
+            <button type="submit">Registrarse</button>
+        </form>
+    </article>
+
+    <article>
+        <h2>Ejemplo de formulario con select, datalist y textarea</h2>
+        <form>
+            <!-- Provincia -->
+            <label for="provincia">Provincia (Andalucía):</label>
+            <select id="provincia" name="provincia">
+                <option value="almeria">Almería</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="granada">Granada</option>
+                <option value="huelva">Huelva</option>
+                <option value="jaen">Jaén</option>
+                <option value="malaga">Málaga</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+            <br>
+            <!-- Lenguaje de programación -->
+            <label for="lenguaje">Lenguaje de programación que más manejas:</label>
+            <input list="lenguajes" id="lenguaje" name="lenguaje" placeholder="Escribe o elige...">
+            <datalist id="lenguajes" name="lenguajes">
+                <option value="Python">
+                <option value="JavaScript">
+                <option value="Java">
+                <option value="C#">
+                <option value="C++">
+                <option value="PHP">
+                <option value="Kotlin">
+            </datalist>
+            <br>
+            <!-- Textarea motivacional -->
+            <label for="motivacion">¿Por qué crees que serías un buen activo para la empresa?</label><br>
+            <textarea id="motivacion" name="motivacion" rows="5" cols="50" placeholder="Escribe tu respuesta aquí..."></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </article>
+    <article>
+        <h2>Ejemplo completo de formulario</h2>
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="correo">Correo: </label>
+            <input type="email" id="correo" name="correo">
+            <br>
+            <label for="pass">Contraseña: </label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <fieldset>
+                <legend>Género</legend>
+                <input type="radio" id="hombre" name="genero" value="H">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="M">
+                <label for="hombre">Mujer</label>
+            </fieldset>
+            <br>
+            <label for="fechaNacimiento">Fecha de nacimiento: </label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+            <br>
+            <label for="numHijos">Número de hijos: </label>
+            <input type="number" id="numHijos" name="numHijos">
+            <br>
+            <label for="avatar">Subir avatar: </label>
+            <input type="file" id="avatar" name="avatar">
+            <br>
+            <label for="provincia">Provincia (Andalucía):</label>
+            <select id="provincia" name="provincia">
+                <option value="almeria">Almería</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="granada">Granada</option>
+                <option value="huelva">Huelva</option>
+                <option value="jaen">Jaén</option>
+                <option value="malaga">Málaga</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>Selecciona áreas de interés: </legend>
+                <input type="checkbox" id="informatica" value="informatica" name="intereses">
+                <label for="">Informática</label>
+                <input type="checkbox" id="criptos" value="criptos" name="intereses">
+                <label for="">Criptomonedas</label>
+                <input type="checkbox" id="ciclismo" value="ciclismo" name="intereses">
+                <label for="">Ciclismo</label>
+                <input type="checkbox" id="escalada" value="escalada" name="intereses">
+                <label for="">Escalada</label>
+                <input type="checkbox" id="LoL" value="LoL" name="intereses">
+                <label for="">League of legends</label>
+                <input type="checkbox" id="lectura" value="lectura" name="intereses">
+                <label for="">Lectura</label>
+            </fieldset>
+            <br>
+            <label for="lenguaje">Lenguaje de programación que más manejas:</label>
+            <input list="lenguajes" id="lenguaje" name="lenguaje" placeholder="Escribe o elige...">
+            <datalist id="lenguajes" name="lenguajes">
+                <option value="Python">
+                <option value="JavaScript">
+                <option value="Java">
+                <option value="C#">
+                <option value="C++">
+                <option value="PHP">
+                <option value="Kotlin">
+            </datalist>
+            <br>
+            <label for="sobreVida">Cuéntanos algo sobre tu vida</label><br>
+            <textarea id="sobreVida" name="sobreVida" rows="5" cols="50" placeholder="Escribe tu respuesta aquí..."></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </article>
+</body>
+</html>
