@@ -6,7 +6,7 @@ for _ in range(10):
     aleatorio = random.randint(20, 40)
     print(aleatorio)
 
-    if aleatorio % 2 == 0:
+    if aleatorio % 2 == 0: # es par
         nPares += 1
 
 
