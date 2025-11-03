@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Centro de adopciones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
+  <script src="user.js" defer></script>
+</head>
+<body>
+  
+<h1>Centro de adopciones</h1>
+  <div>Filtra por tipo y consulta mascotas disponibles (no adoptadas).</div>
+
+  <label for="tipo">Tipo:</label>
+  <select id="tipo">
+    <option value="">🐾 Todas</option>
+  </select>
+
+  <table id="tablaMascotas">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Tipo</th>
+        <th>Edad</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="5">Cargando…</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="5">Solo se muestran mascotas disponibles. Haz clic en una fila para rellenar el ID en el formulario.</td></tr>
+    </tfoot>
+  </table>
+
+  <h2>Formulario de contacto</h2>
+  <form id="formContacto">
+    <label for="petId">ID de la mascota</label>
+    <input id="petId" name="petId" type="number" required />
+
+    <label for="nombre">Tu nombre</label>
+    <input id="nombre" name="nombre" required />
+
+    <label for="email">Correo electrónico</label>
+    <input id="email" name="email" type="email" required />
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="3" placeholder="Me gustaría adoptar esta mascota."></textarea>
+
+    <button type="submit">Enviar solicitud</button>
+    <div id="resultado"></div>
+  </form>
+</body>
+</html>
