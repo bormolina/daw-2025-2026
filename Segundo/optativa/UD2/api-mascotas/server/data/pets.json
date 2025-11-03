@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "category": "gato",
+    "age": 2,
+    "adopted": false
+  },
+  {
+    "id": 2,
+    "name": "Rocky",
+    "category": "perro",
+    "age": 4,
+    "adopted": false
+  },
+  {
+    "id": 3,
+    "name": "Kira",
+    "category": "perro",
+    "age": 1,
+    "adopted": true
+  },
+  {
+    "id": 4,
+    "name": "Nube",
+    "category": "conejo",
+    "age": 3,
+    "adopted": false
+  },
+  {
+    "id": 5,
+    "name": "Mika",
+    "category": "gato",
+    "age": 5,
+    "adopted": false
+  }
+]

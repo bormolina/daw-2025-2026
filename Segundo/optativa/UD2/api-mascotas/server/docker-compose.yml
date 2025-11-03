@@ -1,0 +1,35 @@
+services:
+  # Definimos el servicio principal de nuestra aplicación
+  api:
+    # ----------------------------------------------------------
+    # Construye la imagen Docker usando el Dockerfile
+    # ubicado en el mismo directorio (.)
+    # ----------------------------------------------------------
+    build: .
+
+    container_name: api_mascotas_incompleto
+
+    # ----------------------------------------------------------
+    # Mapeo de puertos:
+    #  - 5059 → puerto accesible desde tu máquina (host)
+    #  - 8000 → puerto interno del contenedor (donde escucha FastAPI)
+    # Esto permite acceder a la API en http://localhost:5059
+    # ----------------------------------------------------------
+    ports:
+      - "5058:8000"
+
+    # ----------------------------------------------------------
+    # Montaje de volúmenes:
+    #  - Sincroniza la carpeta ./data del host con /app/data en el contenedor
+    #  - Así los ficheros (pets.json, messages.json, etc.) persisten
+    #    incluso si el contenedor se detiene o se elimina
+    # ----------------------------------------------------------
+    volumes:
+      - ./data:/app/data  # Persistencia fuera del contenedor
+
+    # ----------------------------------------------------------
+    # Política de reinicio:
+    #  - "unless-stopped" → el contenedor se reiniciará automáticamente
+    #    si se detiene por error, pero no si lo detienes tú manualmente.
+    # ----------------------------------------------------------
+    restart: unless-stopped

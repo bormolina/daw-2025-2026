@@ -1,0 +1,8 @@
+# Framework principal para crear la API
+fastapi
+
+# Servidor HTTP para Python
+uvicorn[standard]
+
+# Librería de modelos de datos usada por FastAPI
+pydantic
