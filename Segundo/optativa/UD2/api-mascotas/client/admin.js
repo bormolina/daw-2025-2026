@@ -19,7 +19,7 @@ async function loadPets() {
         <td>${p.name}</td>
         <td>${p.category}</td>
         <td>${p.age ?? ""}</td>
-        <td>${p.adopted ? "Sí" : "Ní"}</td>
+        <td>${p.adopted ? "Sí" : "No"}</td>
         <td>
         ${p.adopted ? "" : `<button data-id="${p.id}">Marcar adoptado</button>`}
         </td>
