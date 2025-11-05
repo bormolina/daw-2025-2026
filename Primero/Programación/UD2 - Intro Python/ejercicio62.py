@@ -21,7 +21,6 @@ def generarCuenta(inicial, final):
 
 for i in range(10):
     resultado = generarCuenta(1, 10)
-
     try:    
         respuesta = int(input("Tu respuesta: "))
     except Exception as _:

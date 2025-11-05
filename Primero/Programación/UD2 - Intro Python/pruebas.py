@@ -1,23 +1,14 @@
-minimo = None
-maximo = None
+import math
 
-while True:
-   n = int(input("Introduce un número (0 para salir): "))
-   if n == 0:
-       break
-   # Si es el primer número, inicializamos
-   if minimo is None or maximo is None:
-       minimo = n
-       maximo = n
-   else:
-       if n < minimo:
-           minimo = n
-       if n > maximo:
-           maximo = n
+def calcular_hipotenusa(a: float, b: float) -> float:
+    assert a > 0 and b > 0, "Los catetos deben ser valores positivos"
+    h = math.sqrt(a**2 + b**2)
+    return h
 
 
-if minimo is None:
-   print("No se introdujo ningún número.")
-else:
-   print(f"El número mínimo es {minimo}")
-   print(f"El número máximo es {maximo}")
+print("Cálculo de la hipotenusa de un triángulo rectángulo\n")
+cateto1 = int(input("Introduce el primer cateto: "))
+# Pequeño fallo: añadimos un signo negativo por error humano
+cateto2 = int(input("Introduce el segundo cateto: "))
+h = calcular_hipotenusa(cateto1, cateto2)
+print(h)
