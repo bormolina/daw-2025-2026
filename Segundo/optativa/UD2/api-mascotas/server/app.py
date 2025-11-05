@@ -1,7 +1,7 @@
 # FastAPI → framework principal para crear la API web
 # HTTPException → permite devolver errores HTTP personalizados (404, 400, etc.)
 # Query → facilita declarar y validar parámetros opcionales en las rutas (por ejemplo, ?category=perro)
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, Query
 
 # CORSMiddleware → middleware que habilita CORS (Cross-Origin Resource Sharing)
 from fastapi.middleware.cors import CORSMiddleware
@@ -24,7 +24,7 @@ app = FastAPI(title="Adopción de Mascotas", version="1.0.0")
 # Permitir acceso desde cualquier origen (solo para desarrollo)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # puedes restringir a ["http://127.0.0.1:5500"]
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -112,6 +112,7 @@ def _startup():
 # ------------------ GETs ------------------
 
 # Devuelve todas las mascotas o solo las de una categoría específica si se indica (?category=perro)
+# # "Query(None, ...)" establece que su valor por defecto será None y añade descripción para la documentación automática.
 @app.get("/pets/", response_model=List[Pet])
 def list_pets(category: Optional[str] = Query(None, description="Filtra por categoría (perro, gato, etc.)")):
     if category is None:
