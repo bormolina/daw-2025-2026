@@ -28,6 +28,8 @@ async function loadPets() {
     });
 }
 
+
+
 // Detecta clics en los botones de "Marcar adoptado" y actualiza la mascota mediante una petición PATCH
 document.addEventListener("click", async e => {
     return 0;
