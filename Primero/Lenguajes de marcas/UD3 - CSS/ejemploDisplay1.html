@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display</title>
+	<style>
+		div{
+			width: 30%;
+			height: 150px;
+			border: solid black 1px;
+		}
+
+		.d_block{
+			display:block;	
+		}
+
+		.d_inlineBlock{
+			display:inline-block;	
+		}
+
+		.d_inline{
+			display:inline;
+		}
+	</style>
+</head>
+<body>
+	<div class="d_block">Div con display block y anchura 30%</div>
+	<div class="d_inlineBlock">Div con display inlineblock y anchura 30%</div>
+	<div class="d_inline">Div con display inline y anchura 30%</div>
+	<p>Fíjate como un elemento display:block puedes definir su anchura pero su elemento hermano empezará en una nueva linea aunque su ancho no sea del 100%.</p>
+	<p>Los elementos inline-block sin embargo permiten que sus hermanos dónde acaban ellos.</p>
+	<p>Los elementos inline siempre ocupan lo que su contenido requiere, fíjate cómo aplicamos width y height y no los aplica.</p>
+</body>
+</html>
