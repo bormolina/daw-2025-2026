@@ -25,3 +25,6 @@ void main(){
   List<int> pares = nums.where((n) => esPar(n)).toList();
   print('Los numeros pares son $pares');
 }
+
+
+
