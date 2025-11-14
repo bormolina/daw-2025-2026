@@ -1,5 +1,14 @@
-.planeta,.estrella{
-	color: brown;
+p{
+   color: red;
+}
+.p{
+   color: blue;
+}
+#p{
+   color: yellow;
+}
+p.noticia{
+   color: green;
 }
 
 
