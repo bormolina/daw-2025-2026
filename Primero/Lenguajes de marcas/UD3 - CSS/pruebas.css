@@ -1,18 +1,12 @@
-p{
-   color: red;
-}
-.p{
-   color: blue;
-}
-#p{
-   color: yellow;
-}
-p.noticia{
-   color: green;
+.bloque1{
+   height: 33vh;
+   width: 100vw;
+   background-color: cornflowerblue;
 }
 
-
-ol{
-	color: green;
+.bloque2{
+   text-align: center;
+   height: 33vh;
+   width: 100vw;
+   background-color: white;
 }
-
