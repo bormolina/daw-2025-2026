@@ -10,3 +10,8 @@
    width: 100vw;
    background-color: white;
 }
+
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
