@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ponnala&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        #contacto{
+            font-family: "Comic Neue", cursive;
+            font-weight: 300;
+            font-style: normal;
+            width: 75%;
+            margin: 2rem auto;
+            border: solid 1px black;
+            padding: 0 1rem 1rem 1rem;
+            border-radius: 5px;
+            -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -31px -31px 36px 21px rgba(93,255,124,0); 
+            box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -31px -31px 36px 21px rgba(93,255,124,0);
+        }
+
+        .agrupacion{
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        #texto_problema{
+            margin: 1rem 0;
+        }
+
+        #texto_problema textarea{
+            width: 100%;
+        }
+
+        input, textarea{
+            border-radius: 5px;
+        }
+
+        #formulario_contacto button{
+            display: block;
+            width:  50%;
+            margin: 0 auto;
+            background-color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <form id="formulario_contacto" action="">
+            <div class="agrupacion">
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" name="nombre" type="text">
+            </div>
+
+            <div class="agrupacion">
+                <label for="apellidos">Apellidos: </label>
+                <input id="apellidos" name="apellidos" type="text">
+            </div>
+            
+            <div class="agrupacion">
+                <label for="correo">Correo: </label>
+                <input id="correo" name="correo" type="email">
+            </div>
+
+            <div id="texto_problema">
+                <label for="problema">Cuéntanos tu problema: </label>
+                <br>
+                <textarea name="problema" id="problema"></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
