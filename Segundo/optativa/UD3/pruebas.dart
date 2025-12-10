@@ -1,20 +1,5 @@
-class Persona {
-  String nombre;
-  int edad;
-
-  // Constructor
-  Persona(this.nombre, this.edad);
-
-  // Método
-  void saludar() {
-    print('Hola, me llamo $nombre y tengo $edad años.');
-  }
-  
-  @override
-  String toString() {
-    return 'Persona(nombre: $nombre, edad: $edad)';
-  }
-}
+import 'models/Persona.dart';
+import 'models/Coche.dart';
 
 void main() {
   Persona p1 = Persona('Ana', 30);
@@ -25,4 +10,7 @@ void main() {
   print(p2);
   p2.saludar();
 
+
+  Coche c = Coche("Toyoto", "Corollo", 2252, 1520, 120, false, 2, 4, 5, 50);
+  print(c);
 }
