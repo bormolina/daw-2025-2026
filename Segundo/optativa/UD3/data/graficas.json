@@ -1,0 +1,82 @@
+[
+  {
+    "modelo": "RTX 5070",
+    "fabricante": "NVIDIA",
+    "memoria_gb": 12,
+    "tipo_memoria": "GDDR7",
+    "consumo_w": 220,
+    "precio_eur": 599
+  },
+  {
+    "modelo": "RTX 5080",
+    "fabricante": "NVIDIA",
+    "memoria_gb": 16,
+    "tipo_memoria": "GDDR7",
+    "consumo_w": 320,
+    "precio_eur": 899
+  },
+  {
+    "modelo": "RTX 4090",
+    "fabricante": "NVIDIA",
+    "memoria_gb": 24,
+    "tipo_memoria": "GDDR6X",
+    "consumo_w": 450,
+    "precio_eur": 1799
+  },
+  {
+    "modelo": "RX 7800 XT",
+    "fabricante": "AMD",
+    "memoria_gb": 16,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 263,
+    "precio_eur": 549
+  },
+  {
+    "modelo": "RX 7900 XT",
+    "fabricante": "AMD",
+    "memoria_gb": 20,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 300,
+    "precio_eur": 899
+  },
+  {
+    "modelo": "RX 7900 XTX",
+    "fabricante": "AMD",
+    "memoria_gb": 24,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 355,
+    "precio_eur": 999
+  },
+  {
+    "modelo": "RTX 4070 Super",
+    "fabricante": "NVIDIA",
+    "memoria_gb": 12,
+    "tipo_memoria": "GDDR6X",
+    "consumo_w": 220,
+    "precio_eur": 659
+  },
+  {
+    "modelo": "RX 7700 XT",
+    "fabricante": "AMD",
+    "memoria_gb": 12,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 245,
+    "precio_eur": 489
+  },
+  {
+    "modelo": "RTX 4060 Ti",
+    "fabricante": "NVIDIA",
+    "memoria_gb": 8,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 160,
+    "precio_eur": 399
+  },
+  {
+    "modelo": "RX 7600",
+    "fabricante": "AMD",
+    "memoria_gb": 8,
+    "tipo_memoria": "GDDR6",
+    "consumo_w": 165,
+    "precio_eur": 299
+  }
+]
