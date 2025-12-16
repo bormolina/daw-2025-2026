@@ -6,9 +6,15 @@ apartadoA = [nombre for nombre in nombres if len(nombre) <= 7 and nombre[-1] != 
 print(apartadoA)
 
 media = sum(pesos) / len(pesos)
+
+# Sin list comprehension
 apartadoB = []
 for i, nombre in enumerate(nombres): 
     if not es_magnetico[i] and pesos[i] > media:
         apartadoB.append(nombre)
-
 print(apartadoB)
+
+#con list comprehension
+apartadoB2 = [nombre for i, nombre in enumerate(nombres) if not es_magnetico[i] and pesos[i] > media]
+
+print(apartadoB2)

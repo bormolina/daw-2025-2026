@@ -1,3 +1,5 @@
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv chat_bot
+source chat_bot/bin/activate
 pip install -q -U google-genai
+
+sudo apt install python3.12-venv
