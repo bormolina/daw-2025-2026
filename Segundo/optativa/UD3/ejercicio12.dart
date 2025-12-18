@@ -7,7 +7,7 @@ void main(){
   print("Dame el módelo: ");
   String modelo = stdin.readLineSync() ?? '';
   print("Dame el año de fabricación: ");
-  int anio = int.parse(stdin.readLineSync() ?? '0');
+  int ano = int.parse(stdin.readLineSync() ?? '0');
   print("Dame el peso: ");
   int peso = int.parse(stdin.readLineSync() ?? '0');
   print("Dame la potencia: ");
@@ -36,7 +36,7 @@ void main(){
   print('Depósito: ');
   double deposito = double.parse(stdin.readLineSync() ?? '0');
 
-  Coche c = Coche(marca, modelo, anio, peso, potencia, automatico, num_puertas, num_asientos, consumo, deposito);
+  Coche c = Coche(marca, modelo, ano, peso, potencia, automatico, num_puertas, num_asientos, consumo, deposito);
 
   print(c);
 
