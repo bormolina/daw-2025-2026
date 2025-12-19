@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo media query</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        #ejemplo-media-query{
+            width: 50%;
+            margin: 0 auto;
+            background-color: aliceblue;
+        }
+
+        #ejemplo-media-query div{
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 1rem;
+            background-color: gray;
+        }
+
+        #ejemplo-media-query img{
+            width: 50%;
+            display: inline-block;
+        }
+
+        @media (max-width: 768px){
+            #ejemplo-media-query{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            #ejemplo-media-query{
+                width: 100%;
+            }
+
+            #ejemplo-media-query div{
+                width: 100%;
+            }
+
+            #ejemplo-media-query img{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <article id="ejemplo-media-query">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum neque blanditiis aut dolorum, beatae molestias veritatis ad, magni deserunt asperiores consectetur veniam dolor libero esse recusandae ab! Architecto, enim ipsa.</p>
+        </div><img src="assets/vaca.jpg" alt="">
+    </article>
+</body>
+</html>
