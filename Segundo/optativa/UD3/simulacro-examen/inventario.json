@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Bolígrafo azul",
+    "precio": 0.75,
+    "categoria": ["Escritura"]
+  },
+  {
+    "nombre": "Bolígrafo rojo",
+    "precio": 0.80,
+    "categoria": ["Escritura"]
+  },
+  {
+    "nombre": "Lápiz HB",
+    "precio": 0.50,
+    "categoria": ["Escritura", "Dibujo"]
+  },
+  {
+    "nombre": "Goma de borrar",
+    "precio": 0.40,
+    "categoria": ["Corrección"]
+  },
+  {
+    "nombre": "Sacapuntas",
+    "precio": 0.90,
+    "categoria": ["Corrección"]
+  },
+  {
+    "nombre": "Cuaderno A4",
+    "precio": 2.50,
+    "categoria": ["Papel", "Cuadernos"]
+  },
+  {
+    "nombre": "Cuaderno A5",
+    "precio": 1.80,
+    "categoria": ["Papel", "Cuadernos"]
+  },
+  {
+    "nombre": "Bloc de notas",
+    "precio": 1.20,
+    "categoria": ["Papel"]
+  },
+  {
+    "nombre": "Rotulador negro",
+    "precio": 1.50,
+    "categoria": ["Escritura", "Dibujo"]
+  },
+  {
+    "nombre": "Rotuladores de colores",
+    "precio": 4.99,
+    "categoria": ["Escritura", "Dibujo"]
+  },
+  {
+    "nombre": "Subrayador amarillo",
+    "precio": 1.10,
+    "categoria": ["Escritura"]
+  },
+  {
+    "nombre": "Carpeta A4",
+    "precio": 2.20,
+    "categoria": ["Archivo"]
+  },
+  {
+    "nombre": "Archivador",
+    "precio": 3.75,
+    "categoria": ["Archivo"]
+  },
+  {
+    "nombre": "Grapadora",
+    "precio": 5.50,
+    "categoria": ["Oficina"]
+  },
+  {
+    "nombre": "Grapas",
+    "precio": 1.30,
+    "categoria": ["Oficina"]
+  },
+  {
+    "nombre": "Tijeras",
+    "precio": 2.90,
+    "categoria": ["Oficina"]
+  },
+  {
+    "nombre": "Pegamento en barra",
+    "precio": 1.00,
+    "categoria": ["Manualidades"]
+  },
+  {
+    "nombre": "Cinta adhesiva",
+    "precio": 1.40,
+    "categoria": ["Oficina"]
+  },
+  {
+    "nombre": "Regla 30 cm",
+    "precio": 1.25,
+    "categoria": ["Medición", "Dibujo"]
+  },
+  {
+    "nombre": "Estuche",
+    "precio": 6.00,
+    "categoria": ["Accesorios"]
+  }
+]

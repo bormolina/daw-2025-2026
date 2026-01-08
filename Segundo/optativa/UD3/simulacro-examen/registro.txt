@@ -1,0 +1,73 @@
+#22/10/2025
+limpieza bucal:50
+empaste:90
+radiografía:40
+
+#23/10/2025
+limpieza bucal:50
+blanqueamiento dental:300
+
+#24/10/2025
+consulta general:30
+empaste:95
+
+#25/10/2025
+limpieza bucal:50
+extracción simple:120
+
+#26/10/2025
+radiografía:40
+empaste:85
+
+#27/10/2025
+consulta general:30
+limpieza bucal:50
+
+#28/10/2025
+ortodoncia mensual:120
+radiografía:40
+
+#29/10/2025
+empaste:100
+limpieza bucal:50
+
+#30/10/2025
+extracción compleja:250
+
+#31/10/2025
+consulta general:30
+radiografía:40
+
+#01/11/2025
+limpieza bucal:50
+empaste:90
+
+#02/11/2025
+blanqueamiento dental:300
+
+#03/11/2025
+consulta general:30
+extracción simple:120
+
+#04/11/2025
+limpieza bucal:50
+radiografía:40
+
+#05/11/2025
+empaste:95
+
+#06/11/2025
+ortodoncia mensual:120
+
+#07/11/2025
+limpieza bucal:50
+consulta general:30
+
+#08/11/2025
+implante:2000
+
+#09/11/2025
+revisión implante:60
+
+#10/11/2025
+limpieza bucal:50
