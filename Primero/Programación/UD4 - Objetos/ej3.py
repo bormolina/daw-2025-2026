@@ -15,3 +15,6 @@ videojuegos = [
 
 for juego in videojuegos:
     print(f"{juego.nombre}, precio: {juego.precio_final(0.21, 0)} €")
+
+# En una sola linea
+[print(f"{juego.nombre}, precio: {juego.precio_final(0.21, 0)} €") for juego in videojuegos]

@@ -17,15 +17,20 @@ videojuegos = [
 juegos_filtrados = [juego for juego in videojuegos if juego.apto_menores() and juego.puntuacion >= 9 and juego.peso < 50]
 
 # Opción 2
-"""
+# Si, utilizase el filtro en más sitios de mi código mejor hacerlo una función
+'''
 def filtrar(juego: Videojuego) -> bool:
     return juego.apto_menores() and juego.puntuacion >= 9 and juego.peso < 50
 
 juegos_filtrados = [juego for juego in videojuegos if filtrar(juego)]
 
-del filtrar"
-"""
+del filtrar
+'''
 
+# Imprimimos los juegos
 print("Los juegos que cumplen el filtro son:")
 for juego in juegos_filtrados:
     print(juego.nombre)
+
+# Imprimimos los juegos SIN USAR FOR y en una única linea
+# [print(juego.nombre) for juego in juegos_filtrados]

@@ -18,6 +18,7 @@ mejores_xbox_x = [
 ]
 
 # Salieron en ambas consolas
+# Sin conjuntos
 en_ambas = []
 for j_ps4 in mejores_ps4:
     for j_xbox in mejores_xbox_x:
@@ -28,9 +29,19 @@ print("Los juegos que están en ambas son: ")
 for juego in en_ambas:
     print(juego.nombre)
 
+# con conjuntos
+print("Los juegos que están en ambas son: ")
+en_ambas = list(set(mejores_ps4) & set(mejores_xbox_x))
+[print(j.nombre) for j in en_ambas]
+
 # Salieron solo en ps4
 nombres_ambas = [juego.nombre for juego in en_ambas]
 solo_ps4 = [juego for juego in mejores_ps4 if juego.nombre not in nombres_ambas]
 print("\nLos juegos que solo salieron en PS4 son: ")
 for juego in solo_ps4:
     print(juego.nombre)
+
+# Con conjuntos
+print("\nLos juegos que solo salieron en PS4 son: ")
+solo_ps4 = list(set(mejores_ps4) - set(mejores_xbox_x))
+[print(j) for j in solo_ps4]
