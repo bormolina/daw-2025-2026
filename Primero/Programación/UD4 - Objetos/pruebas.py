@@ -1,16 +1,19 @@
-from Planeta import Planeta
-from datetime import datetime
+from Videojuego import Videojuego
 
-planetas = [
-    Planeta("Mercurio", 3.301e23, 2.4397e6, datetime.min, []),
-    Planeta("Venus", 4.867e24, 6.0518e6, datetime.min, []),
-    Planeta("Tierra", 5.972e24, 6.371e6, datetime.min, [["Luna", 1.737e6, 7.342e22]]),
-    Planeta("Marte", 6.417e23, 3.3895e6, datetime.min, [["Fobos", 1.1e4, 1.0659e16], ["Deimos", 6.2e3, 1.4762e15]]),
-    Planeta("Júpiter", 1.898e27, 6.9911e7, datetime.min, [["Ganimedes", 2.634e6, 1.0659e16], ["Calisto", 2.410e6, 1.0759e23], ["Ío", 1.821e6, 8.9319e22], ["Europa", 1.560e6, 4.7998e22]]),
-    Planeta("Saturno", 5.683e26, 5.8232e7, datetime.min, [["Titán", 2.572e6, 1.3452e23], ["Rea", 1.527e6, 2.3166e21], ["Japeto", 1.470e6, 1.8056e21], ["Dione", 1.123e6, 1.0955e21]]),
-    Planeta("Urano", 8.681e25, 2.5362e7, datetime.min, [["Titania", 1.578e6, 3.527e21]]),
-    Planeta("Neptuno", 1.024e26, 2.4622e7, datetime.min, [["Tritón", 1.353e6, 2.14e22]]),
-    Planeta("Plutón", 1.303e22, 1.1883e6, datetime(1930, 2, 18), [["Caronte", 6.057e5, 1.586e21]])
+juegos_borja = [
+   Videojuego("Dark Souls III", ["RPG", "Acción", "Souls-like"], "2016-04-12", 9.3, 16, 39.99, 25),
+   Videojuego("Bloodborne", ["RPG", "Acción", "Souls-like"], "2015-03-24", 9.7, 18, 19.99, 41),
+   Videojuego("Elden Ring", ["RPG", "Acción", "Souls-like"], "2022-02-25", 9.8, 16, 59.99, 60),
+   Videojuego("Sekiro: Shadows Die Twice", ["Acción", "Souls-like"], "2019-03-22", 9.5, 18, 49.99, 25),
+   Videojuego("Lies of P", ["RPG", "Acción", "Souls-like"], "2023-09-19", 9.0, 16, 59.99, 35)
 ]
 
-print(planetas[4].lunas[0])
+alumno_generico = [
+   Videojuego("Pocoyó Party", ["Educación", "Infantil"], "2021-04-15", 7.0, 3, 29.99, 2),
+   Videojuego("Las Supernenas: Mojo Jojo A Go-Go", ["Acción", "Plataformas"], "2001-11-14", 6.5, 3, 19.99, 0.2),
+   Videojuego("Dora la Exploradora: Journey to the Purple Planet", ["Aventura", "Educación"], "2005-10-13", 7.2, 3, 14.99, 1),
+   Videojuego("Peppa Pig: Aventura en el Mundo", ["Aventura", "Infantil"], "2022-03-17", 7.5, 3, 39.99, 5),
+   Videojuego("Bob Esponja: Battle for Bikini Bottom – Rehydrated", ["Plataformas", "Aventura"], "2020-06-23", 8.0, 3, 29.99, 8)
+]
+
+
