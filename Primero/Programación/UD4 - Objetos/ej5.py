@@ -45,3 +45,8 @@ for juego in solo_ps4:
 print("\nLos juegos que solo salieron en PS4 son: ")
 solo_ps4 = list(set(mejores_ps4) - set(mejores_xbox_x))
 [print(j) for j in solo_ps4]
+
+# Solo en xbox
+print("\nLos juegos que solo salieron en PS4 son: ")
+solo_xbox = list(set(mejores_xbox_x) - set(mejores_ps4))
+[print(j) for j in solo_xbox]
