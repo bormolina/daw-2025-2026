@@ -17,8 +17,7 @@ planetas = [
 densidades = [planeta.get_densidad() for planeta in planetas]
 
 # Obtén el planeta cuya densidad sea mayor
-mayor_densidad = max(densidades)
-planeta_mayor_densidad = [planeta for planeta in planetas if planeta.get_densidad() == mayor_densidad][0]
+planeta_mayor_densidad = max(planetas, key=lambda p: p.get_densidad())
 print(planeta_mayor_densidad)
 
 # Encuentra las lunas que sean más grandes que la Luna
@@ -41,6 +40,7 @@ print(f"Las lunas más grandes que la Luna son: {lunas_grandes}")
 
 
 # Encuentra la luna más pequeña
+# Primero encuetro todos los radios de la lunas
 radios_luna = []
 for planeta in planetas:
     for luna in planeta.lunas:
