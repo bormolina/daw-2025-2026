@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0px;
+        }
+
+        section{
+            border: solid black 1px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        #texto{
+            width: 50%;
+        }
+
+        #imagen{
+            width: 50%;
+        }
+
+        #texto{
+            padding: 0 1rem;
+        }
+
+        #imagen>img{
+            width: 100%;
+        }
+
+        @media(max-width: 768px){
+            section{
+                width: 100%;
+            }
+
+            #texto{
+                width: 100%;
+                order: 1;
+            }
+
+            #imagen{
+                width: 100%;
+                order: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="imagen">
+            <img src="../assets/spino.png" alt="">
+        </div>
+        <div id="texto">
+            <h1>Spinosaurus</h1>
+            <p>El Spinosaurus aegyptiacus es uno de los dinosaurios más fascinantes y enigmáticos que han existido, tanto por su apariencia única como por el misterio que ha rodeado su estudio durante más de un siglo. Fue un dinosaurio terópodo que vivió durante el Cretácico medio, hace aproximadamente 112 a 93 millones de años, en lo que hoy es el norte de África, en regiones que actualmente corresponden a Egipto, Marruecos y otros países del Sahara.</p>
+            <p>El Spinosaurus es famoso por la enorme vela dorsal que se extendía a lo largo de su espalda, formada por largas espinas óseas conectadas por piel. Esta estructura pudo servir para múltiples funciones: regulación de la temperatura corporal, exhibición visual para atraer pareja o intimidar rivales, o incluso como reserva de grasa. A día de hoy, su función exacta sigue siendo discutida.</p>
+        </div>
+    </section>
+</body>
+</html>
