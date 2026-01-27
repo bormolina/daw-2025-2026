@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen CSS - Unión Europea</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+
+    <!-- EJERCICIO 1 -->
+    <header>
+        <div class="topbar">
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#ej2">Ejercicio 2</a>
+                <a href="#ej3">Ejercicio 3</a>
+                <a href="#ej4">Ejercicio 4</a>
+            </nav>
+
+            <form class="login">
+                <input type="text" name="usuario" placeholder="Usuario" aria-label="Usuario" />
+                <input type="password" name="clave" placeholder="Contraseña" aria-label="Contraseña" />
+                <input type="submit" value="Entrar" />
+            </form>
+        </div>
+    </header>
+
+    <main>
+
+        <h1>Examen Lenguajes de marcas</h1>
+        <!-- EJERCICIO 2 -->
+        <section id="ej2">
+            <div class="eu-intro">
+                <div class="eu-media">
+                    <div class="img">
+                        <img src="assets/European_Union.svg" alt="Unión Europea">
+                    </div>
+                </div>
+
+                <div class="eu-text">
+                    <h2>Ejercicio 2 - Unión Europea</h2>
+                    <p>
+                        La Unión Europea (UE) es una unión política y económica de países europeos que cooperan en
+                        ámbitos como el mercado interior, la legislación común y políticas compartidas.
+                    </p>
+                    <ul>
+                        <li>Objetivo: cooperación y estabilidad en Europa.</li>
+                        <li>Instituciones: Parlamento Europeo, Comisión Europea, Consejo, etc.</li>
+                        <li>Ciudadanía europea y libre circulación (según normativa).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- EJERCICIO 3 -->
+        <section id="ej3">
+            <h2>Ejercicio 3</h2>
+
+            <div class="flags">
+                <img src="assets/spa.png" alt="España">
+                <img src="assets/fra.png" alt="Francia">
+                <img src="assets/ger.png" alt="Alemania">
+                <img src="assets/ita.png" alt="Italia">
+                <img src="assets/por.png" alt="Portugal">
+            </div>
+        </section>
+
+        <!-- EJERCICIO 4 -->
+        <section id="ej4">
+            <h2>Ejercicio 4</h2>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="nombre@correo.com" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="pais">País</label>
+                    <select id="pais" name="pais" required>
+                        <option value="">Selecciona uno</option>
+                        <option>España</option>
+                        <option>Francia</option>
+                        <option>Alemania</option>
+                        <option>Italia</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."
+                        required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
