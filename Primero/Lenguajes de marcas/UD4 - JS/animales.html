@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animales del mundo</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="topbar">
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#mamiferos">Mamíferos</a>
+                <a href="#aves">Aves</a>
+                <a href="#registro">Registro</a>
+            </nav>
+
+            <form class="login">
+                <input type="text" name="usuario" placeholder="Usuario" />
+                <input type="password" name="clave" placeholder="Contraseña" />
+                <input type="submit" value="Entrar" />
+            </form>
+        </div>
+    </header>
+
+    <main>
+
+        <h1 id="titulo-principal">Animales del mundo 🌍</h1>
+
+        <section id="mamiferos">
+            <div class="animal-intro">
+                <div class="animal-media">
+                    <div class="emoji">🐘🐶🐱</div>
+                </div>
+
+                <div class="animal-text">
+                    <h2>Mamíferos</h2>
+                    <p>
+                        Los mamíferos son animales vertebrados que se caracterizan por tener pelo y alimentar a
+                        sus crías con leche.
+                    </p>
+                    <ul class="lista-animales">
+                        <li class="animal terrestre">Perro 🐕</li>
+                        <li class="animal terrestre">Gato 🐈</li>
+                        <li class="animal terrestre">Elefante 🐘</li>
+                        <li class="animal acuatico">Ballena 🐋</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="aves">
+            <h2>Aves</h2>
+
+            <div class="galeria">
+                <span class="animal volador">Águila 🦅</span>
+                <span class="animal volador">Loro 🦜</span>
+                <span class="animal volador">Búho 🦉</span>
+                <span class="animal volador">Pingüino 🐧</span>
+                <span class="animal volador">Flamenco 🦩</span>
+            </div>
+        </section>
+
+        <section id="registro">
+            <h2>Registro de avistamientos</h2>
+
+            <form class="animal-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="nombre">Nombre del animal</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Ej. León" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="tipo">Tipo</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="">Selecciona uno</option>
+                        <option>Mamífero</option>
+                        <option>Ave</option>
+                        <option>Reptil</option>
+                        <option>Anfibio</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="zona">Zona</label>
+                    <input id="zona" name="zona" type="text" placeholder="Ej. Sabana">
+                </div>
+
+                <div class="form-row">
+                    <label for="comentarios">Comentarios</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"
+                        placeholder="Información adicional..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit">Registrar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
