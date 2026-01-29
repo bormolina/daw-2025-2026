@@ -39,6 +39,24 @@ def f2h(jugadores: list[Jugador]) -> list[Jugador]:
     menos_goles_delantero = min([j.goles for j in jugadores if j.posicion == 'Delantero'])
     return [j for j in jugadores if j.goles > menos_goles_delantero and j.posicion == 'Centrocampista']
 
+def f2i(jugadores: list[Jugador]) -> dict[str, int]:
+    posiciones = ['Portero', 'Defensa', 'Centrocampista', 'Delantero']
+    resultado = {}
+    
+    for p in posiciones:
+        resultado[p] = sum([j.goles for j in jugadores if j.posicion == p])
+    
+    return resultado
+
+def f2j(jugadores: list[Jugador]) -> dict[str, list[Jugador]]:
+    posiciones = ['Portero', 'Defensa', 'Centrocampista', 'Delantero']
+    resultado = {}
+    
+    for p in posiciones:
+        resultado[p] = [j for j in jugadores if j.posicion == p]
+    
+    return resultado
+
 
 # Datos
 atletico_madrid = get_datos()
@@ -75,3 +93,7 @@ print(f'Los jugadores que llevan desde el 2015 o antes en el equipo son: {[j.nom
 
 centros_goleadores = f2h(atletico_madrid)
 print(f'Los centrocampistas que han metido más goles que algún delantero son: {[j.nombre for j in centros_goleadores]}')
+
+print(f2i(atletico_madrid))
+
+print(f2j(atletico_madrid))

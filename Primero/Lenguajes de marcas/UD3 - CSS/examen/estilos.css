@@ -44,7 +44,7 @@
      font-weight: 700;
  }
 
- .login {
+ .loformatea_jugadorgin {
      display: flex;
      flex-wrap: wrap;
      align-items: center;
@@ -71,7 +71,7 @@
  /* Para que el contenido no quede tapado por el header fijo */
  main {
      padding: 100px 16px 40px;
- }
+ }formatea_jugador
 
  section {
      background: #fff;
