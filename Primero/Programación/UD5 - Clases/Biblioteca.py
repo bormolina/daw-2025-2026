@@ -36,6 +36,53 @@ class Biblioteca:
 
     def contar_libros(self) -> int:
         return len(self.libros)
+    
+    def buscar_libros_por_palabra(self, palabra: str) -> list[Libro]:
+        resultado = []
+        for libro in self.libros:
+            if palabra in libro:
+                resultado.append(libro)
+        return resultado
+
+    def buscar_libros_por_autor(self, autor: str) -> list[Libro]:
+        resultado = []
+        for libro in self.libros:
+            if autor in libro.autores:
+                resultado.append(libro)
+        return resultado
+
+    def buscar_libros_por_precio_maximo(self, precio_max: float) -> list[Libro]:
+        resultado = []
+        for libro in self.libros:
+            if libro.precio_venta <= precio_max:
+                resultado.append(libro)
+        return resultado
+    
+    def libro_mas_largo(self) -> Libro | None:
+        if len(self.libros) == 0:
+            return None
+        return max(self.libros)
+
+    def libro_mas_corto(self) -> Libro | None:
+        if len(self.libros) == 0:
+            return None
+        return min(self.libros)
+
+    def libros_ordenados_por_longitud(self) -> list[Libro]:
+        return sorted(self.libros)
+
+    def libro_mas_caro(self) -> Libro | None:
+        if len(self.libros) == 0:
+            return None
+        return max(self.libros, key=lambda l: l.precio_venta)
+
+    def libro_mas_barato(self) -> Libro | None:
+        if len(self.libros) == 0:
+            return None
+        return min(self.libros, key=lambda l: l.precio_venta)
+
+    def libros_ordenados_por_precio(self) -> list[Libro]:
+        return sorted(self.libros, key=lambda l: l.precio_venta)
 
     def __str__(self) -> str:
         res = f"Biblioteca #{self.id_biblioteca}\n"
