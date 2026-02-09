@@ -1,6 +1,6 @@
 class Libro:
   
-   def __init__(self, ISBN: str, titulo: str, autores: list, generos: list, n_palabras: int, precio_base: float):
+   def __init__(self, ISBN: str, titulo: str, autores: list[str], generos: list[str], n_palabras: int, precio_base: float):
        self.ISBN = ISBN
        self.titulo = titulo
        self.autores = autores

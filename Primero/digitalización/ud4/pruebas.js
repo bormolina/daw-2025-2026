@@ -1,6 +1,11 @@
-let edad = 20;
-let tieneCarnet = true;
+function empiezanPorA(lista) {
+    let resultado = [];
 
-if (edad >= 18 && tieneCarnet) {
-    console.log("Puede entrar a la discoteca");
+    for (let palabra of lista) {
+        if (palabra.startsWith("a")) {
+            resultado.push(palabra);
+        }
+    }
+
+    return resultado;
 }
