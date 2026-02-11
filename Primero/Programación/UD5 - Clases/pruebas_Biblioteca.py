@@ -40,10 +40,10 @@ l4 = Libro(
 
 # Crear biblioteca con lista inicial de libros
 biblioteca = Biblioteca(
-    id_biblioteca=1,
-    nombre="Biblioteca Municipal",
-    direccion="Calle Real 12, Monachil",
-    libros=[l1, l2, l3]
+    id_biblioteca = 1,
+    nombre = "Biblioteca Municipal",
+    direccion = "Calle Real 12, Monachil",
+    libros = [l1, l2, l3]
 )
 
 print("=== Biblioteca inicial ===")
@@ -51,6 +51,7 @@ print(biblioteca)
 print()
 
 print("=== Añadir libro ===")
+# biblioteca.libros.append(l4) --> MAL!!! GOLPE DE REMO. TE SALTAS ENCAPSULACIÓN
 biblioteca.añadir_libro(l4)
 print(biblioteca)
 print()

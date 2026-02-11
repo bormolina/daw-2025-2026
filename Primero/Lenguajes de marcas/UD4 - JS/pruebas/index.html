@@ -2,10 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplo botón</title>
+    <title>Formulario básico</title>
     <script src="script.js" defer></script>
 </head>
 <body>
-    <button id="btnSaludo">Pulsa aquí</button>
+
+    <form id="formDatos">
+        <label>
+            Nombre:
+            <input type="text" id="nombre">
+        </label>
+        <br><br>
+        <label>
+            Edad:
+            <input type="number" id="edad">
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="resultado"></p>
+
 </body>
 </html>
+

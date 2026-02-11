@@ -1,5 +1,11 @@
-const boton = document.getElementById("btnSaludo")
+const form = document.getElementById("formDatos")
+const resultado = document.getElementById("resultado")
 
-boton.addEventListener("click", () => {
-    alert("Has pulsado el botón")
+form.addEventListener("submit", (event) => {
+    event.preventDefault() // Evita que la página se recargue
+
+    const nombre = document.getElementById("nombre").value   
+    const edad = document.getElementById("edad").value
+
+    resultado.textContent = `Te llamas ${nombre} y tienes ${edad} años`;
 })
