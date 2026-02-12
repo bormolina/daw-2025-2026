@@ -1,15 +1,5 @@
-from dataclasses import dataclass
-
-@dataclass
-class Comercial:
-   id: int
-   nombre: str
-   apellido1: str
-   apellido2: str
-   ciudad: str = ''
-   comision: float = 0
+from datetime import datetime
+from Cancion import Cancion
 
 
-c = Comercial(1, 'Borja', 'Molina', 'Zea', 'Monachil', 500)
-c2 = Comercial(2, 'Alumo', 'Malvado', 'NO')
-print(c.nombre)
+c = Cancion(1, 'a', [], '', [], 0, datetime(2020, 1, 1))
