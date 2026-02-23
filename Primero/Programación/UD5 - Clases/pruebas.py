@@ -1,5 +1,13 @@
-from datetime import datetime
-from Cancion import Cancion
+nums = [2, 8, -1, 3, -3, -5, 9]
 
+negativos = [x for x in nums if x < 0]
+primero = negativos[0] if negativos else None
 
-c = Cancion(1, 'a', [], '', [], 0, datetime(2020, 1, 1))
+for x in nums:
+    if x < 0:
+        primero = x
+        break
+
+primero = next((x for x in nums if x < 0), None)
+print(primero)
+

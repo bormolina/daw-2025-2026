@@ -27,15 +27,11 @@ class Almacen:
 
     # Mantecados ya caducados
     def mantecados_caducados(self) -> list[Mantecado]:
-        hoy = date.today()
-        return [m for m in self.mantecados
-                if m.fecha_caducidad < hoy]
+        return [m for m in self.mantecados if m.esta_caducado()]
 
     # Mantecados a los que les faltan n o menos días para caducar
     def proximos_a_caducar(self, n: int) -> list[Mantecado]:
-        hoy = date.today()
-        return [m for m in self.mantecados
-                if 0 <= (m.fecha_caducidad - hoy).days <= n]
+        return [m for m in self.mantecados if 0 <= m.dias_para_caducar <= n]
 
     # Mantecados en un rango de precio
     def mantecados_en_rango_precio(self, minimo: float,
@@ -70,7 +66,7 @@ if __name__ == "__main__":
     from datetime import date, timedelta
 
     # Obtener lista base
-    lista = get_mantecados(1)
+    lista = get_mantecados(0)
 
     # Crear almacén con dirección más realista
     almacen = Almacen(

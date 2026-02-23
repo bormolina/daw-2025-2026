@@ -32,7 +32,7 @@ class Mantecado:
         )
 
     def dias_para_caducar(self) -> int:
-        hoy: date = date.today()
+        hoy = date.today()
         diferencia = self.fecha_caducidad - hoy
         return diferencia.days
 
@@ -54,14 +54,18 @@ if __name__ == "__main__":
         ingredientes=["harina", "azúcar", "manteca", "cacao"]
     )
 
-    m2 = Mantecado(
-        id=1,
+    m2 = m1
+
+    m3 = Mantecado(
+        id=2,
         tipo="Chocolate Especial",
         fecha_creacion=date(2025, 12, 5),
         fecha_caducidad=date(2026, 1, 5),
         precio=4.0,
         ingredientes=["harina", "azúcar", "manteca", "cacao", "almendra"]
     )
+
+    
 
     print("Representación:")
     print(m1)
@@ -74,3 +78,4 @@ if __name__ == "__main__":
 
     print("\nComparación por id (m1 == m2):")
     print(m1 == m2)
+    print(m1 == m3)
