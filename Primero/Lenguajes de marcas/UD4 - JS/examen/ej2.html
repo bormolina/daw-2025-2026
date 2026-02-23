@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <script src="ej2.js" defer></script>
+</head>
+
+<body>
+    <h1>Ejercicio 2</h1>
+    <p>Introduce los datos del viaje y calcula el consumo (L/100 km) y el coste total</p>
+
+    <form id="formGasolina">
+        <label for="km">Kilómetros recorridos (km)</label>
+        <input id="km" type="number" min="0" step="0.1" placeholder="Ej: 185.5" required>
+
+        <br>
+
+        <label for="litros">Litros consumidos (L)</label>
+        <input id="litros" type="number" min="0" step="0.01" placeholder="Ej: 12.30" required>
+
+        <br>
+
+        <label for="precio">Precio por litro (€)</label>
+        <input id="precio" type="number" min="0" step="0.001" placeholder="Ej: 1.679" required>
+
+        <br>
+
+        <button type="submit">Calcular</button>
+
+    </form>
+
+    <br>
+
+    <div class="resultados">
+        <div class="fila">
+            <span>Consumo:</span>
+            <span id="consumo"></span>
+        </div>
+        <div class="fila">
+            <span>Coste total:</span>
+            <span id="coste"></span>
+        </div>
+    </div>
+</body>
+
+</html>
