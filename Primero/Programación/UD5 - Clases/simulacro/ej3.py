@@ -1,5 +1,6 @@
 from datetime import date
 from datos import get_empleados
+from Empleado import Empleado
 
 
 # f3a) Sueldo medio
@@ -8,31 +9,31 @@ def f3a(empleados: list) -> float:
 
 
 # f3b) Empleado con sueldo más alto
-def f3b(empleados: list):
+def f3b(empleados: list) -> float:
     return max(empleados, key=lambda e: e.sueldo)
 
 
 # f3c) Empleados que cobran más que n
-def f3c(empleados: list, n: float) -> list:
+def f3c(empleados: list, n: float) -> list[Empleado]:
     return [e for e in empleados if e.sueldo > n]
 
 
 # f3d) Empleados que llevan más de n años en la empresa
-def f3d(empleados: list, n: int) -> list:
+def f3d(empleados: list, n: int) -> list[Empleado]:
     hoy = date.today()
     return [
         e for e in empleados
-        if (hoy - e.fecha_ingreso).days > n * 365
+        if (hoy - e.fecha_ingreso).days > n * 365.25
     ]
 
 
 # f3e) Empleado más antiguo
-def f3e(empleados: list):
+def f3e(empleados: list) -> Empleado:
     return min(empleados, key=lambda e: e.fecha_ingreso)
 
 
 # f3f) Todos los empleados ordenados por antigüedad (más antiguo primero)
-def f3f(empleados: list) -> list:
+def f3f(empleados: list) -> list[Empleado]:
     return sorted(empleados, key=lambda e: e.fecha_ingreso)
 
 
@@ -47,7 +48,7 @@ def f3h(empleados: list, departamento: str) -> list:
 
 
 # f3i) Reporte {departamento: número de empleados}
-def f3i(empleados: list) -> dict:
+def f3i(empleados: list) -> dict[str, int]:
     reporte = {}
     for e in empleados:
         for d in e.departamentos:
@@ -56,7 +57,7 @@ def f3i(empleados: list) -> dict:
 
 
 # f3j) Reporte {departamento: sueldo medio}
-def f3j(empleados: list) -> dict:
+def f3j(empleados: list) -> dict[str, float]:
     acumulado = {}
     conteo = {}
 
