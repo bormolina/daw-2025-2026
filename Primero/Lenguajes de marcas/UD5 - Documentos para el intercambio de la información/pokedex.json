@@ -1,0 +1,76 @@
+{
+  "pokedex": [
+    {
+      "id": 1,
+      "nombre": "Bulbasaur",
+      "tipo": ["planta", "veneno"],
+      "altura_m": 0.7,
+      "peso_kg": 6.9,
+      "habilidades": ["espesura", "clorofila"]
+    },
+    {
+      "id": 2,
+      "nombre": "Ivysaur",
+      "tipo": ["planta", "veneno"],
+      "altura_m": 1.0,
+      "peso_kg": 13.0,
+      "habilidades": ["espesura", "clorofila"]
+    },
+    {
+      "id": 3,
+      "nombre": "Venusaur",
+      "tipo": ["planta", "veneno"],
+      "altura_m": 2.0,
+      "peso_kg": 100.0,
+      "habilidades": ["espesura", "clorofila"]
+    },
+    {
+      "id": 4,
+      "nombre": "Charmander",
+      "tipo": ["fuego"],
+      "altura_m": 0.6,
+      "peso_kg": 8.5,
+      "habilidades": ["mar llamas", "poder solar"]
+    },
+    {
+      "id": 5,
+      "nombre": "Charmeleon",
+      "tipo": ["fuego"],
+      "altura_m": 1.1,
+      "peso_kg": 19.0,
+      "habilidades": ["mar llamas", "poder solar"]
+    },
+    {
+      "id": 6,
+      "nombre": "Charizard",
+      "tipo": ["fuego", "volador"],
+      "altura_m": 1.7,
+      "peso_kg": 90.5,
+      "habilidades": ["mar llamas", "poder solar"]
+    },
+    {
+      "id": 7,
+      "nombre": "Squirtle",
+      "tipo": ["agua"],
+      "altura_m": 0.5,
+      "peso_kg": 9.0,
+      "habilidades": ["torrente", "cura lluvia"]
+    },
+    {
+      "id": 8,
+      "nombre": "Wartortle",
+      "tipo": ["agua"],
+      "altura_m": 1.0,
+      "peso_kg": 22.5,
+      "habilidades": ["torrente", "cura lluvia"]
+    },
+    {
+      "id": 9,
+      "nombre": "Blastoise",
+      "tipo": ["agua"],
+      "altura_m": 1.6,
+      "peso_kg": 85.5,
+      "habilidades": ["torrente", "cura lluvia"]
+    }
+  ]
+}
