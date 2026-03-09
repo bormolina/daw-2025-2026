@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pokedex>
+
+    <pokemon>
+        <id>1</id>
+        <nombre>Bulbasaur</nombre>
+        <tipo>planta</tipo>
+        <tipo>veneno</tipo>
+        <altura_m>0.7</altura_m>
+        <peso_kg>6.9</peso_kg>
+        <habilidades>
+            <habilidad>espesura</habilidad>
+            <habilidad>clorofila</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>2</id>
+        <nombre>Ivysaur</nombre>
+        <tipo>planta</tipo>
+        <tipo>veneno</tipo>
+        <altura_m>1.0</altura_m>
+        <peso_kg>13.0</peso_kg>
+        <habilidades>
+            <habilidad>espesura</habilidad>
+            <habilidad>clorofila</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>3</id>
+        <nombre>Venusaur</nombre>
+        <tipo>planta</tipo>
+        <tipo>veneno</tipo>
+        <altura_m>2.0</altura_m>
+        <peso_kg>100.0</peso_kg>
+        <habilidades>
+            <habilidad>espesura</habilidad>
+            <habilidad>clorofila</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>4</id>
+        <nombre>Charmander</nombre>
+        <tipo>fuego</tipo>
+        <altura_m>0.6</altura_m>
+        <peso_kg>8.5</peso_kg>
+        <habilidades>
+            <habilidad>mar llamas</habilidad>
+            <habilidad>poder solar</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>5</id>
+        <nombre>Charmeleon</nombre>
+        <tipo>fuego</tipo>
+        <altura_m>1.1</altura_m>
+        <peso_kg>19.0</peso_kg>
+        <habilidades>
+            <habilidad>mar llamas</habilidad>
+            <habilidad>poder solar</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>6</id>
+        <nombre>Charizard</nombre>
+        <tipo>fuego</tipo>
+        <tipo>volador</tipo>
+        <altura_m>1.7</altura_m>
+        <peso_kg>90.5</peso_kg>
+        <habilidades>
+            <habilidad>mar llamas</habilidad>
+            <habilidad>poder solar</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>7</id>
+        <nombre>Squirtle</nombre>
+        <tipo>agua</tipo>
+        <altura_m>0.5</altura_m>
+        <peso_kg>9.0</peso_kg>
+        <habilidades>
+            <habilidad>torrente</habilidad>
+            <habilidad>cura lluvia</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>8</id>
+        <nombre>Wartortle</nombre>
+        <tipo>agua</tipo>
+        <altura_m>1.0</altura_m>
+        <peso_kg>22.5</peso_kg>
+        <habilidades>
+            <habilidad>torrente</habilidad>
+            <habilidad>cura lluvia</habilidad>
+        </habilidades>
+    </pokemon>
+
+    <pokemon>
+        <id>9</id>
+        <nombre>Blastoise</nombre>
+        <tipo>agua</tipo>
+        <altura_m>1.6</altura_m>
+        <peso_kg>85.5</peso_kg>
+        <habilidades>
+            <habilidad>torrente</habilidad>
+            <habilidad>cura lluvia</habilidad>
+        </habilidades>
+    </pokemon>
+
+</pokedex>
