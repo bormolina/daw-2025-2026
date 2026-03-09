@@ -14,7 +14,7 @@ class EmpleadoFijo(Empleado):
 
     def trienios(self) -> int:
         hoy = datetime.today()
-        antiguedad_anos = (hoy - self.fecha_inicio).days // 365
+        antiguedad_anos = (hoy - self.fecha_inicio).days // 365.25
         return antiguedad_anos // 3  # un trienio cada 3 años
 
 
