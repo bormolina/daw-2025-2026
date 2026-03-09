@@ -1,0 +1,37 @@
+{
+  "jugador": {
+    "nombre": "Arthos",
+    "nivel": 12,
+    "experiencia": 4580,
+    "localizacion": "Bosque de Eldoria",
+    "dinero": 320
+  },
+  "inventario": [
+    {
+      "nombre": "Espada de hierro",
+      "tipo": "arma",
+      "danio": 14,
+      "precio_venta": 45,
+      "objeto_mision_principal": false
+    },
+    {
+      "nombre": "Poción de vida",
+      "tipo": "consumible",
+      "efecto": "restaura 50 puntos de vida",
+      "precio_venta": 10,
+      "objeto_mision_principal": false
+    },
+    {
+      "nombre": "Llave antigua",
+      "tipo": "objeto_mision",
+      "descripcion": "Llave oxidada que abre la puerta de la torre abandonada",
+      "precio_venta": null,
+      "objeto_mision_principal": true
+    }
+  ],
+  "misiones_completadas": [
+    "El lobo del bosque",
+    "Rescate del mercader",
+    "Explorar la cueva abandonada"
+  ]
+}

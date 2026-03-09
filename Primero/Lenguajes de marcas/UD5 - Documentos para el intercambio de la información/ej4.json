@@ -1,0 +1,14 @@
+{
+  "configuracion": {
+    "usuario": "pepe",
+    "idioma": "es",
+    "tema": "oscuro",
+    "tamano_fuente": 14,
+    "autoguardado": true,
+    "extensiones": [
+      "autocompletado",
+      "corrector_ortografico",
+      "resaltado_sintaxis"
+    ]
+  }
+}

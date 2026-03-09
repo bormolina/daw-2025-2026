@@ -1,0 +1,32 @@
+{
+  "ordenes_religiosas": [
+    {
+      "id": 1,
+      "nombre": "Benedictinos",
+      "fundador": "Benito de Nursia",
+      "siglo_fundacion": "VI",
+      "numero_miembros": 7000
+    },
+    {
+      "id": 2,
+      "nombre": "Franciscanos",
+      "fundador": "Francisco de Asís",
+      "siglo_fundacion": "XIII",
+      "numero_miembros": 15000
+    },
+    {
+      "id": 3,
+      "nombre": "Dominicos",
+      "fundador": "Domingo de Guzmán",
+      "siglo_fundacion": "XIII",
+      "numero_miembros": 6000
+    },
+    {
+      "id": 4,
+      "nombre": "Jesuitas",
+      "fundador": "Ignacio de Loyola",
+      "siglo_fundacion": "XVI",
+      "numero_miembros": 16000
+    }
+  ]
+}

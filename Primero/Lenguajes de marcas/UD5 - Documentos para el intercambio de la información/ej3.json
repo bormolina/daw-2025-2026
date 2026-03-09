@@ -1,0 +1,24 @@
+{
+  "modulos": [
+    { "id": 1, "nombre": "Programación" },
+    { "id": 2, "nombre": "Bases de datos" },
+    { "id": 3, "nombre": "Lenguajes de marcas" }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "modulos_matriculados": [1, 2]
+    },
+    {
+      "id": 2,
+      "nombre": "Luis",
+      "modulos_matriculados": [1, 3]
+    },
+    {
+      "id": 3,
+      "nombre": "Marta",
+      "modulos_matriculados": [2, 3]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "modulos": [
+    {
+      "id": 1,
+      "modulo": "Programación",
+      "curso": 1,
+      "horas": 256
+    },
+    {
+      "id": 2,
+      "modulo": "Bases de datos",
+      "curso": 1,
+      "horas": 192
+    },
+    {
+      "id": 3,
+      "modulo": "Lenguajes de marcas",
+      "curso": 1,
+      "horas": 96
+    },
+    {
+      "id": 4,
+      "modulo": "Entornos de desarrollo",
+      "curso": 1,
+      "horas": 96
+    },
+    {
+      "id": 5,
+      "modulo": "Desarrollo web en entorno cliente",
+      "curso": 2,
+      "horas": 160
+    },
+    {
+      "id": 6,
+      "modulo": "Desarrollo web en entorno servidor",
+      "curso": 2,
+      "horas": 180
+    },
+    {
+      "id": 7,
+      "modulo": "Despliegue de aplicaciones web",
+      "curso": 2,
+      "horas": 90
+    }
+  ]
+}
