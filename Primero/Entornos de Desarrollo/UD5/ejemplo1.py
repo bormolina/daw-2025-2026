@@ -34,8 +34,6 @@ if __name__ == "__main__":
     cuenta.retirar(150)
     cuenta.ingresar(300)
 
-    cuenta.mostrar_movimientos()
-
     print(f"Saldo actual: {cuenta.saldo}")
 
     media = cuenta.calcular_media_movimientos()
