@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     print("\n=== RETIRADAS (250€ para Carlos y 2000€ para Marta) ===")
     print("Retirada cc2 (250):", cc2.retirar(250))  # usa descubierto
-    print("Retirada ca1 (2000):", ca1.retirar(2000))  # debería fallar
+    print("Retirada ca1 (2000):", ca1.retirar(2000))  # debería devolver false
     print(cc2)
     print(ca1)
 

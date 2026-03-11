@@ -18,3 +18,7 @@ class CuentaCorriente(Cuenta):
     def __str__(self) -> str:
         base = super().__str__().replace("Cuenta", "Cuenta Corriente")
         return f"{base} | Descubierto: {self.limite_descubierto:.2f}€"
+    
+if __name__ == "__main__":
+    c1 = CuentaCorriente('Borjonidas', '5654986486546465', 10000000.0, 1000000)
+    print(c1)

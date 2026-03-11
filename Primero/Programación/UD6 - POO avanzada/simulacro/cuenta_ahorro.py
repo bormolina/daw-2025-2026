@@ -10,12 +10,6 @@ class CuentaAhorro(Cuenta):
         intereses = self.saldo * (self.interes_anual / 100)
         self.saldo += intereses
 
-    def retirar(self, cantidad: float) -> bool:
-        if cantidad <= self.saldo:
-            self.saldo -= cantidad
-            return True
-        return False
-
     def __str__(self) -> str:
         base = super().__str__().replace("Cuenta", "Cuenta Ahorro")
         return f"{base} | Interés: {self.interes_anual}%"
