@@ -1,4 +1,4 @@
-<datos>
+<curso>
     <modulos>
         <modulo>
             <id>1</id>
@@ -42,4 +42,4 @@
             </modulos_matriculados>
         </alumno>
     </alumnos>
-</datos>
+</curso>
