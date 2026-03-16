@@ -118,9 +118,8 @@ if __name__ == "__main__":
 
     # Variable definida muy al principio del bloque final
 
-
     total = tienda.calcular_total_con_descuento()
-    n_productos = len(tienda.carrito)
+    n_productos = 0
 
     print(f"Total actual del carrito: {total:.2f} €")
     print(f"Número de productos considerado: {n_productos}")

@@ -7,7 +7,7 @@ class CuentaBancaria:
 
     def ingresar(self, cantidad: float) -> None:
         self.saldo += cantidad
-        self.movimientos.append(cantidad)  
+        self.movimientos.append(self.saldo)  
 
     def retirar(self, cantidad: float) -> None:
         if cantidad > self.saldo:
