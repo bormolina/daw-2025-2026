@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Leonardo",
+    "especie": "tortuga",
+    "arma": "katana",
+    "color_antifaz": "azul"
+  },
+  {
+    "id": 2,
+    "nombre": "Michelangelo",
+    "especie": "tortuga",
+    "arma": "nunchaku",
+    "color_antifaz": "naranja"
+  },
+  {
+    "id": 3,
+    "nombre": "Donatello",
+    "especie": "tortuga",
+    "arma": "bo",
+    "color_antifaz": "verde"
+  },
+  {
+    "id": 4,
+    "nombre": "Raphael",
+    "especie": "tortuga",
+    "arma": "sai",
+    "color_antifaz": "rojo"
+  },
+  {
+    "id": 5,
+    "nombre": "Splinter",
+    "especie": "rata",
+    "arma": "ninguna",
+    "color_antifaz": "morado"
+  }
+]
