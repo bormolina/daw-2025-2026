@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Isaac Newton",
+    "campo": "física matemática",
+    "aportacion": {
+      "nombre": "Cálculo diferencial",
+      "anio": 1666,
+      "importancia": "Permitió estudiar el cambio y el movimiento mediante derivadas"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Gottfried Wilhelm Leibniz",
+    "campo": "matemáticas",
+    "aportacion": {
+      "nombre": "Notación del cálculo",
+      "anio": 1675,
+      "importancia": "Introdujo la notación moderna del cálculo como la integral y la derivada"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Carl Friedrich Gauss",
+    "campo": "teoría de números",
+    "aportacion": {
+      "nombre": "Disquisitiones Arithmeticae",
+      "anio": 1801,
+      "importancia": "Fundó la teoría moderna de números"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Alan Turing",
+    "campo": "computación",
+    "aportacion": {
+      "nombre": "Máquina de Turing",
+      "anio": 1936,
+      "importancia": "Estableció las bases teóricas de la computación"
+    }
+  }
+]

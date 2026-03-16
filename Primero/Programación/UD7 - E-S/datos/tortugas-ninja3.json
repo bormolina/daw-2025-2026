@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nombre": "Leonardo",
+    "especie": "tortuga",
+    "arma": {
+      "id": 101,
+      "nombre": "katana",
+      "ataque": 95,
+      "tipo": "corte"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Michelangelo",
+    "especie": "tortuga",
+    "arma": {
+      "id": 102,
+      "nombre": "nunchaku",
+      "ataque": 80,
+      "tipo": "contundente"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Donatello",
+    "especie": "tortuga",
+    "arma": {
+      "id": 103,
+      "nombre": "bo",
+      "ataque": 75,
+      "tipo": "baston"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Raphael",
+    "especie": "tortuga",
+    "arma": {
+      "id": 104,
+      "nombre": "sai",
+      "ataque": 90,
+      "tipo": "punzante"
+    }
+  }
+]
