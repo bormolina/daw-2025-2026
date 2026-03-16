@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Leonardo",
+    "arma": "katana",
+    "tecnicas": ["kenjutsu", "iaido", "estrategia"]
+  },
+  {
+    "id": 2,
+    "nombre": "Michelangelo",
+    "arma": "nunchaku",
+    "tecnicas": ["acrobacias", "nunchaku", "improvisacion"]
+  },
+  {
+    "id": 3,
+    "nombre": "Donatello",
+    "arma": "bo",
+    "tecnicas": ["bojutsu", "ingenieria", "analisis"]
+  },
+  {
+    "id": 4,
+    "nombre": "Raphael",
+    "arma": "sai",
+    "tecnicas": ["combate cercano", "fuerza", "agresividad"]
+  }
+]
