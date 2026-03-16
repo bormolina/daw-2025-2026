@@ -8,4 +8,9 @@
         <edad>21</edad>
     </alumno>
 
+    <alumno>
+        <nombre>Juan</nombre>
+        <profesion>Barista</profesion>
+    </alumno>
+
 </alumnos>
