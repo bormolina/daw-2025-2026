@@ -1,0 +1,45 @@
+<datos>
+    <modulos>
+        <modulo>
+            <id>1</id>
+            <nombre>Programación</nombre>
+        </modulo>
+        <modulo>
+            <id>2</id>
+            <nombre>Bases de datos</nombre>
+        </modulo>
+        <modulo>
+            <id>3</id>
+            <nombre>Lenguajes de marcas</nombre>
+        </modulo>
+    </modulos>
+
+    <alumnos>
+        <alumno>
+            <id>1</id>
+            <nombre>Ana</nombre>
+            <modulos_matriculados>
+                <modulo_id>1</modulo_id>
+                <modulo_id>2</modulo_id>
+            </modulos_matriculados>
+        </alumno>
+
+        <alumno>
+            <id>2</id>
+            <nombre>Luis</nombre>
+            <modulos_matriculados>
+                <modulo_id>1</modulo_id>
+                <modulo_id>3</modulo_id>
+            </modulos_matriculados>
+        </alumno>
+
+        <alumno>
+            <id>3</id>
+            <nombre>Marta</nombre>
+            <modulos_matriculados>
+                <modulo_id>2</modulo_id>
+                <modulo_id>3</modulo_id>
+            </modulos_matriculados>
+        </alumno>
+    </alumnos>
+</datos>

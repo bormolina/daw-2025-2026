@@ -1,0 +1,12 @@
+<configuracion>
+    <usuario>pepe</usuario>
+    <idioma>es</idioma>
+    <tema>oscuro</tema>
+    <tamano_fuente>14</tamano_fuente>
+    <autoguardado>true</autoguardado>
+    <extensiones>
+        <extension>autocompletado</extension>
+        <extension>corrector_ortografico</extension>
+        <extension>resaltado_sintaxis</extension>
+    </extensiones>
+</configuracion>

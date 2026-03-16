@@ -1,0 +1,33 @@
+<ordenes_religiosas>
+    <orden>
+        <id>1</id>
+        <nombre>Benedictinos</nombre>
+        <fundador>Benito de Nursia</fundador>
+        <siglo_fundacion>VI</siglo_fundacion>
+        <numero_miembros>7000</numero_miembros>
+    </orden>
+
+    <orden>
+        <id>2</id>
+        <nombre>Franciscanos</nombre>
+        <fundador>Francisco de Asís</fundador>
+        <siglo_fundacion>XIII</siglo_fundacion>
+        <numero_miembros>15000</numero_miembros>
+    </orden>
+
+    <orden>
+        <id>3</id>
+        <nombre>Dominicos</nombre>
+        <fundador>Domingo de Guzmán</fundador>
+        <siglo_fundacion>XIII</siglo_fundacion>
+        <numero_miembros>6000</numero_miembros>
+    </orden>
+
+    <orden>
+        <id>4</id>
+        <nombre>Jesuitas</nombre>
+        <fundador>Ignacio de Loyola</fundador>
+        <siglo_fundacion>XVI</siglo_fundacion>
+        <numero_miembros>16000</numero_miembros>
+    </orden>
+</ordenes_religiosas>

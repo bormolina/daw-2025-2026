@@ -1,0 +1,50 @@
+<modulos>
+    <modulo>
+        <id>1</id>
+        <nombre>Programación</nombre>
+        <curso>1</curso>
+        <horas>256</horas>
+    </modulo>
+
+    <modulo>
+        <id>2</id>
+        <nombre>Bases de datos</nombre>
+        <curso>1</curso>
+        <horas>192</horas>
+    </modulo>
+
+    <modulo>
+        <id>3</id>
+        <nombre>Lenguajes de marcas</nombre>
+        <curso>1</curso>
+        <horas>96</horas>
+    </modulo>
+
+    <modulo>
+        <id>4</id>
+        <nombre>Entornos de desarrollo</nombre>
+        <curso>1</curso>
+        <horas>96</horas>
+    </modulo>
+
+    <modulo>
+        <id>5</id>
+        <nombre>Desarrollo web en entorno cliente</nombre>
+        <curso>2</curso>
+        <horas>160</horas>
+    </modulo>
+
+    <modulo>
+        <id>6</id>
+        <nombre>Desarrollo web en entorno servidor</nombre>
+        <curso>2</curso>
+        <horas>180</horas>
+    </modulo>
+
+    <modulo>
+        <id>7</id>
+        <nombre>Despliegue de aplicaciones web</nombre>
+        <curso>2</curso>
+        <horas>90</horas>
+    </modulo>
+</modulos>
