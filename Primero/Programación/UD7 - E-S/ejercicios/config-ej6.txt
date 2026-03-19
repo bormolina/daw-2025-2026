@@ -1,0 +1,4 @@
+intentos=8
+numero_minimo=1
+numero_maximo=20
+pistas_mayor_menor=si
