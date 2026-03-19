@@ -1,4 +1,4 @@
 intentos=8
 numero_minimo=1
-numero_maximo=20
+numero_maximo=100
 pistas_mayor_menor=si
