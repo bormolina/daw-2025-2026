@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pharmacy-drug-list>
+	<pharmacy-drug>
+		<drug-name>ACYCLOVIR CAP 200MG</drug-name>
+		<category>Antiviral</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALBUTEROL INH SOL 0.083</drug-name>
+		<category>Asthma</category>
+		<thirty-day>75 ML</thirty-day>
+		<ninety-day>225 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALBUTEROL SOL 0.5% †</drug-name>
+		<category>Asthma</category>
+		<thirty-day>20 ML</thirty-day>
+		<ninety-day>60 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALBUTEROL SYRUP</drug-name>
+		<category>Asthma</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALBUTEROL TAB 2MG</drug-name>
+		<category>Asthma</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALBUTEROL TAB 4MG</drug-name>
+		<category>Asthma</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALLOPURINOL TAB 100MG</drug-name>
+		<category>Anti-Gout</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALLOPURINOL TAB 300MG</drug-name>
+		<category>Anti-Gout</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMILORIDE/HCTZ TAB 5-50</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMITRIPTYLINE TAB  10MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMITRIPTYLINE TAB  25MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMITRIPTYLINE TAB  50MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMITRIPTYLINE TAB  75MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMITRIPTYLINE TAB 100MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN CAP 250MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN CAP 500MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 125MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>80 ML</thirty-day>
+		<ninety-day>240 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 125MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 125MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>150 ML</thirty-day>
+		<ninety-day>450 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 200MG * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>75 ML</thirty-day>
+		<ninety-day>225 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 200MG * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 200MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>50 ML</thirty-day>
+		<ninety-day>150 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 250MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>80 ML</thirty-day>
+		<ninety-day>240 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 250MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 250MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>150 ML</thirty-day>
+		<ninety-day>450 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 400MG * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>75 ML</thirty-day>
+		<ninety-day>225 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 400MG * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>AMOXICILLIN SUSP 400MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>50 ML</thirty-day>
+		<ninety-day>150 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ATENOLOL TAB  25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ATENOLOL TAB 100MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ATENOLOL TAB 50MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ATENOLOL/CHLRTHAL TAB 100-25</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ATROPINE SUL OPTH SOL 1% †</drug-name>
+		<category>Glaucoma/Eye</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BACLOFEN TAB 10MG</drug-name>
+		<category>Muscle Relaxant</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BELLADONNA ALK W/PB TAB</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENAZEPRIL TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENAZEPRIL TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENAZEPRIL TAB 40MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENAZEPRIL TAB 5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENZONATATE CAP 100MG</drug-name>
+		<category>Cough/Cold</category>
+		<thirty-day>14</thirty-day>
+		<ninety-day>42</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BENZTROPINE MES TAB 2MG</drug-name>
+		<category>Parkinson's</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BISOPROLOL/HCTZ TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BISOPROLOL/HCTZ TAB 2.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BISOPROLOL/HCTZ TAB 5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BUMETANIDE TAB 0.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BUMETANIDE TAB 1MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BUSPIRONE TAB  5MG</drug-name>
+		<category>Anti Anxiety</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>BUSPIRONE TAB 10MG *</drug-name>
+		<category>Anti Anxiety</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CAPTOPRIL TAB 100MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CAPTOPRIL TAB 12.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CAPTOPRIL TAB 25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CAPTOPRIL TAB 50MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CARBAMAZEPINE TAB 200MG *</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>100</thirty-day>
+		<ninety-day>300</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CARVEDILOL TAB 12.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CARVEDILOL TAB 25MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CARVEDILOL TAB 3.125MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CARVEDILOL TAB 6.25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CEPHALEXIN CAP 250MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>40</thirty-day>
+		<ninety-day>120</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CEPHALEXIN CAP 500MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>40</thirty-day>
+		<ninety-day>120</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CHLORHEXIDINE RNSE 0.12% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>473 ML</thirty-day>
+		<ninety-day>1419 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CHLOROTHIAZIDE TAB 250MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CHLOROTHIAZIDE TAB 500MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CIMETIDINE TAB 800MG *</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CIPROFLOXACIN TAB 250MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CIPROFLOXACIN TAB 500MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CITALOPRAM TAB 20MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CITALOPRAM TAB 40MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CLONIDINE TAB 0.1MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CLONIDINE TAB 0.2MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CYCLOBENZAPRINE TAB 10MG</drug-name>
+		<category>Muscle Relaxant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CYCLOBENZAPRINE TAB 5MG</drug-name>
+		<category>Muscle Relaxant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CYTRA-2 SOL †</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>473 ML</thirty-day>
+		<ninety-day>1419 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DEXAMETHASONE TAB 0.5MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DEXAMETHASONE TAB 0.75M</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>18</thirty-day>
+		<ninety-day>54</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DEXAMETHASONE TAB 4MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>12</thirty-day>
+		<ninety-day>36</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DICLOFENAC SOD TAB 75MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DICYCLOMINE CAP 10MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DICYCLOMINE TAB 20MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DIGOXIN TAB 0.125MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DIGOXIN TAB 0.25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DOXYCYCLINE CAP  50MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DOXYCYCLINE CAP 100MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>DOXYCYCLINE TAB 100MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ENALAPRIL MAL TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ENALAPRIL MAL TAB 2.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ENALAPRIL MAL TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ENALAPRIL MAL TAB 5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ENALAPRIL/HCTZ TAB 5/12.5</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ERYTHROMYCIN OPTH OINT †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>3.5 GM</thirty-day>
+		<ninety-day>10.5 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ESTRADIOL TAB 0.5MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ESTRADIOL TAB 1MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ESTRADIOL TAB 2MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FAMOTIDINE TAB 20MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUCONAZOLE TB 150MG U/U</drug-name>
+		<category>Antifungal</category>
+		<thirty-day>1</thirty-day>
+		<ninety-day>3</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOCINONIDE CRM 0.05% * †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOCINONIDE CRM 0.05% * †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>30 GM</thirty-day>
+		<ninety-day>90 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUORIDE CHW TAB 0.25MG*</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOXETINE CAP 10MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOXETINE CAP 20MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOXETINE CAP 40MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUOXETINE TAB 10MG *</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUPHENAZINE TAB  1MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FLUVOXAMINE MALEATE 25 MG TAB</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FOLIC ACID TAB 1MG</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FUROSEMIDE TAB 20MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FUROSEMIDE TAB 40MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>FUROSEMIDE TAB 80MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GENTAMICIN OPTH SOL 0.3% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GENTAMICIN SULF CRM 0.1% * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GENTAMICIN SULF OINT 0.1% * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLIMEPIRIDE TAB 1MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLIMEPIRIDE TAB 2MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLIMEPIRIDE TAB 4MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLIPIZIDE TAB  5MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLIPIZIDE TAB 10MG *</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLYBURIDE MICRO 1.5 MG TAB</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLYBURIDE MICRO TAB 3MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLYBURIDE MICRO TAB 6MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLYBURIDE TAB 2.5MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GLYBURIDE TAB 5MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>GUANFACINE TAB 1MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HALOPERIDOL TAB  0.5MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HALOPERIDOL TAB  1MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HALOPERIDOL TAB  2MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HALOPERIDOL TAB  5MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDRALAZINE TAB  10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDRALAZINE TAB  25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDROCHLOROTHIAZIDE (HCTZ) CAP 12.5MG *</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDROCHLOROTHIAZIDE (HCTZ) TAB 25MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDROCHLOROTHIAZIDE (HCTZ) TAB 50MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDROCORTISONE CRM 1% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>30 GM</thirty-day>
+		<ninety-day>90 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>HYDROCORTISONE CRM 2.5% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>30 GM</thirty-day>
+		<ninety-day>90 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>IBUPROFEN  SUSP 100MG/5ML *</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>IBUPROFEN TAB 400MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>IBUPROFEN TAB 600MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>IBUPROFEN TAB 800MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>INDAPAMIDE TAB 1.25MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>INDAPAMIDE TAB 2.5MG</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>INDOMETHACIN CAP 25MG *</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>IPRATROPIUM SOL .02% UDV * †</drug-name>
+		<category>Asthma</category>
+		<thirty-day>62.5 ML</thirty-day>
+		<ninety-day>187.5 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ISONIAZID TAB 300MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ISOSORBID MON ER TAB 30MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ISOSORBID MON ER TAB 60MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ISOSORBIDE DINITRATE SL 2.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ISOSORBIDE DINITRATE SL 5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LACTULOSE SYP 10G/15ML †</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>473 ML</thirty-day>
+		<ninety-day>1419 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOBUNOLOL OPTH 0.5% †</drug-name>
+		<category>Glaucoma/Eye</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB  50MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB  75MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB  88MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 100MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 112 MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 125MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 137MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 150MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 175MCG *</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 200MCG *</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LEVOTHYROXINE TAB 25MCG</drug-name>
+		<category>Thyroid</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LIDOCAINE VISCOUS SOL 2% †</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL TAB  2.5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL TAB  5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL/HCTZ TAB 10/12.5</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL/HCTZ TAB 20/12.5 *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LISINOPRIL/HCTZ TAB 20/25 *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LITHIUM CARB CAP 300MG *</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>90</thirty-day>
+		<ninety-day>270</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LORATADINE TAB 10MG</drug-name>
+		<category>Allergy</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LOVASTATIN TAB 10MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>LOVASTATIN TAB 20MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MAGNESIUM OXIDE TAB 400MG</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MAG-SR TAB 64MG *</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MEDROXYPROGST ACE TAB  10MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MEDROXYPROGST ACE TAB  2.5MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MEDROXYPROGST ACE TAB  5MG</drug-name>
+		<category>Hormone</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MEGESTROL TAB 20MG *</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MELOXICAM TAB 15MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>MELOXICAM TAB 7.5MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METFORMIN ER TAB 500MG *</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METFORMIN TAB 1000MG *</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METFORMIN TAB 500MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METFORMIN TAB 850MG</drug-name>
+		<category>Diabetes</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METHYLDOPA TAB 250MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METHYLDOPA TAB 500MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METOCLOPRAMIDE SYRUP 5MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METOCLOPRAMIDE TAB 10MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METOPROLOL TARTRATE TAB  50MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METOPROLOL TARTRATE TAB 100MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>METOPROLOL TARTRATE TAB 25MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NADOLOL TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NADOLOL TAB 40MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NAPROXEN TAB 250MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NAPROXEN TAB 375MG *</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NAPROXEN TAB 500MG *</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NEO/POLY/DEX OPTH OINT .1% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>3.5 GM</thirty-day>
+		<ninety-day>10.5 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NEO/POLY/DEX OPTH SUSP .1% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NORTRIPTYLINE CAP 10MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NORTRIPTYLINE CAP 25MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NYSTATIN CRM  * †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>NYSTATIN CRM  * †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>30 GM</thirty-day>
+		<ninety-day>90 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>OXYBUTYNIN TAB 5MG</drug-name>
+		<category>Miscellaneous</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PAROXETINE TAB 10MG *</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PAROXETINE TAB 20MG *</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PENICILLIN VK TAB 250MG</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>40</thirty-day>
+		<ninety-day>120</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PENICILLN VK SOL 125MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>100 ML</thirty-day>
+		<ninety-day>300 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PENICILLN VK SOL 125MG †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>200 ML</thirty-day>
+		<ninety-day>600 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PHENAZOPYRIDINE TAB 100MG</drug-name>
+		<category>Analgesic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PHENAZOPYRIDINE TAB 200MG</drug-name>
+		<category>Analgesic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>POLYMYXIN/TRIMETH OPTH SOL * †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>10 ML</thirty-day>
+		<ninety-day>30 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>POTASSIUM CL ORAL SOL 10% †</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>473 ML</thirty-day>
+		<ninety-day>1419 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRAVASTATIN TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRAVASTATIN TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRAVASTATIN TAB 40MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRAZOSIN CAP 2MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRAZOSIN CAP 5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB  2.5MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB  5MG</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB 10MG DSPK * †</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>48</thirty-day>
+		<ninety-day>144</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB 10MG DSPK †</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>21</thirty-day>
+		<ninety-day>63</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB 5MG DSPK * †</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>48</thirty-day>
+		<ninety-day>144</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PREDNISONE TAB 5MG DSPK †</drug-name>
+		<category>Anti Inflammatory</category>
+		<thirty-day>21</thirty-day>
+		<ninety-day>63</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PRENATAL PLUS TAB*</drug-name>
+		<category>Supplements &amp; Vitamins</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROCHLORPERAZINE 5 MG TABLET</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROCHLORPERAZINE TAB 10MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROMETHAZINE PLAIN SYRUP *</drug-name>
+		<category>Cough/Cold</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROMETHAZINE TAB 25MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROMETHAZINE W/DM SYRUP</drug-name>
+		<category>Cough/Cold</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROPRANOLOL TAB 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROPRANOLOL TAB 20MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROPRANOLOL TAB 40MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>PROPRANOLOL TAB 80MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>RANITIDINE TAB 150MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>RANITIDINE TAB 300MG</drug-name>
+		<category>Gastro Intestinal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SILVER SULFADIAZINE (SSD) CRM 1% * †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>50 GM</thirty-day>
+		<ninety-day>150 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SOTALOL HCL TAB  80MG *</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SPIRONOLACTONE TAB 25MG *</drug-name>
+		<category>Diuretic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SULFACET SOD OPTH SOL 10% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SULFAMETH/TRIMETH DS TAB</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SULFAMETH/TRIMETH TAB</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>20</thirty-day>
+		<ninety-day>60</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SULFATRIM PED SUSP</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>120 ML</thirty-day>
+		<ninety-day>360 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TERAZOSIN CAP  1MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TERAZOSIN CAP  2MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TERAZOSIN CAP  5MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TERAZOSIN CAP 10MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TERBINAFINE TAB 250MG *</drug-name>
+		<category>Antifungal</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>THIORIDAZINE TAB  10MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>THIORIDAZINE TAB  25MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>THIORIDAZINE TAB  50MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>THIORIDAZINE TAB  100MG</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>THIOTHIXENE CAP  2MG *</drug-name>
+		<category>Antipsychotic</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TIMOLOL MAL OPTH SOL .25% †</drug-name>
+		<category>Glaucoma/Eye</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TIMOLOL MAL OPTH SOL 0.5% †</drug-name>
+		<category>Glaucoma/Eye</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TOBRAMYCIN OPTH SOL 0.3% †</drug-name>
+		<category>Antibiotic</category>
+		<thirty-day>5 ML</thirty-day>
+		<ninety-day>15 ML</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRANDOLAPRIL TAB 1MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRAZODONE TAB  50MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRAZODONE TAB 100MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRAZODONE TAB 150MG</drug-name>
+		<category>Antidepressant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE CRM 0.025% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE CRM 0.025% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>80 GM</thirty-day>
+		<ninety-day>240 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE CRM 0.1% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE CRM 0.1% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>80 GM</thirty-day>
+		<ninety-day>240 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE CRM 0.5% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE OINT 0.1% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>15 GM</thirty-day>
+		<ninety-day>45 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMCINOLONE ACE OINT 0.1% †</drug-name>
+		<category>Topical Medications</category>
+		<thirty-day>80 GM</thirty-day>
+		<ninety-day>240 GM</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIAMTEREN/HCTZ TAB 75/50</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRIHEXYPHENIDYL TAB 2MG</drug-name>
+		<category>Parkinson's</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>VERAPAMIL TAB  80MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>VERAPAMIL TAB 120MG</drug-name>
+		<category>Heart Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  1MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  2.5MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  2MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  3MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  4MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  5MG *</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  6MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB  7.5MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>WARFARIN SODIUM TAB 10MG</drug-name>
+		<category>Anticoagulant</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALENDRONATE SOD TAB 35MG</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>4</thirty-day>
+		<ninety-day>12</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>ALENDRONATE SOD TAB 70MG</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>4</thirty-day>
+		<ninety-day>12</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>CLOMIPHENE CIT TAB 50MG </drug-name>
+		<category>Women's Health</category>
+		<thirty-day>5</thirty-day>
+		<ninety-day>15</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>SPRINTEC TAB 0.25/0.035 *</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>28</thirty-day>
+		<ninety-day>84</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TAMOXIFEN TAB 10MG</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>60</thirty-day>
+		<ninety-day>180</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TAMOXIFEN TAB 20MG</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>30</thirty-day>
+		<ninety-day>90</ninety-day>  
+	</pharmacy-drug>  
+	<pharmacy-drug>
+		<drug-name>TRINESSA 28 TAB *</drug-name>
+		<category>Women's Health</category>
+		<thirty-day>28</thirty-day>
+		<ninety-day>84</ninety-day>  
+	</pharmacy-drug>  
+</pharmacy-drug-list> 
