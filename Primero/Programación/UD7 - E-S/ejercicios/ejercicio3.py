@@ -14,8 +14,11 @@ print("Número de veces que aparece 'caballero':", contador)
 
 
 # Versión 2 (usando readlines)
+# Para este problema la solución con readlines es menos eficiente
+contador2 = 0
 with open(nombre_archivo, "r", encoding="utf-8") as f:
-    texto = f.read().lower()
+    lineas = f.readlines()
+    porLinea = [linea.lower().count("caballero") for linea in lineas]
+    contador2 = sum(porLinea)
 
-contador = texto.count("caballero")
-print("Número de veces que aparece 'caballero':", contador)
+print("Número de veces que aparece 'caballero':", contador2)
