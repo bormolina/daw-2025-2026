@@ -6,13 +6,14 @@ def leer_configuracion(nombre_archivo: str) -> dict:
     config = {}
     with open(nombre_archivo, "r", encoding="utf-8") as f:
         for linea in f:
-            clave, valor = linea.strip().split("=")
-            config[clave] = valor
-
+            linea = linea.strip()
+            if linea:
+                clave, valor = linea.split("=")
+                config[clave] = valor
     return config
 
 
-def jugar(tablas: list[int], preguntas):
+def jugar(tablas: list[int], preguntas: int | str):
     contador = 0
 
     while preguntas == "infinito" or contador < preguntas:
