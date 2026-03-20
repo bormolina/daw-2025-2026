@@ -7,8 +7,10 @@ def leer_configuracion(nombre_archivo: str) -> dict:
 
     with open(nombre_archivo, "r", encoding="utf-8") as f:
         for linea in f:
-            clave, valor = linea.strip().split("=")
-            config[clave] = valor
+            linea = linea.strip()
+            if linea:
+                clave, valor = linea.split("=")
+                config[clave] = valor
 
     return config
 
