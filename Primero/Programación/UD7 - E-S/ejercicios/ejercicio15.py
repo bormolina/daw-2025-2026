@@ -3,8 +3,7 @@ from pathlib import Path
 
 if __name__ == "__main__":
 
-    carpeta_script = Path(__file__).parent
-    ruta = carpeta_script / "tablas_multiplicar.txt"
+    ruta = Path(__file__).parent / "tablas_multiplicar.txt"
 
     with open(ruta, "w", encoding="utf-8") as f:
 

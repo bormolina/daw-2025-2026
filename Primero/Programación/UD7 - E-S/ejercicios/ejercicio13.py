@@ -14,8 +14,7 @@ if __name__ == "__main__":
 
         palabras.append(palabra)
 
-    carpeta_script = Path(__file__).parent
-    ruta = carpeta_script / "palabras.txt"
+    ruta = Path(__file__).parent / "palabras.txt"
 
     with open(ruta, "w", encoding="utf-8") as f:
 
