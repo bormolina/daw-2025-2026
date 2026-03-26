@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Ahri",
+    "posiciones": ["Mid"],
+    "dificultad": "Media"
+  },
+  {
+    "nombre": "Garen",
+    "posiciones": ["Top"],
+    "dificultad": "Media"
+  },
+  {
+    "nombre": "Lee Sin",
+    "posiciones": ["Jungla"],
+    "dificultad": "Alta"
+  },
+  {
+    "nombre": "Jinx",
+    "posiciones": ["ADC"],
+    "dificultad": "Media"
+  },
+  {
+    "nombre": "Thresh",
+    "posiciones": ["Support"],
+    "dificultad": "Alta"
+  },
+  {
+    "nombre": "Malphite",
+    "posiciones": ["Top"],
+    "dificultad": "Baja"
+  },
+  {
+    "nombre": "Yasuo",
+    "posiciones": ["Mid", "Top"],
+    "dificultad": "Alta"
+  },
+  {
+    "nombre": "Lux",
+    "posiciones": ["Mid", "Support"],
+    "dificultad": "Baja"
+  },
+  {
+    "nombre": "Kha'Zix",
+    "posiciones": ["Jungla"],
+    "dificultad": "Media"
+  },
+  {
+    "nombre": "Ezreal",
+    "posiciones": ["ADC"],
+    "dificultad": "Alta"
+  },
+  {
+    "nombre": "Amumu",
+    "posiciones": ["Jungla", "Top"],
+    "dificultad": "Baja"
+  },
+  {
+    "nombre": "Viego",
+    "posiciones": ["Jungla"],
+    "dificultad": "Alta"
+  }
+]
