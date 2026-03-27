@@ -2,7 +2,7 @@ import random
 from pathlib import Path
 
 
-def leer_config(ruta) -> dict[str, str | int | list[str]]:
+def leer_config(ruta: Path) -> dict[str, str | int | list[str]]:
     config = {}
     with open(ruta, "r", encoding="utf-8") as f:
         # Inserto las claves y valores
@@ -19,7 +19,7 @@ def leer_config(ruta) -> dict[str, str | int | list[str]]:
     return config
 
 
-def guardar_config(ruta, config: dict[str, str | int | list[str]]) -> None:
+def guardar_config(ruta: Path, config: dict[str, str | int | list[str]]) -> None:
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(f"min={config['min']}\n")
         f.write(f"max={config['max']}\n")
@@ -100,7 +100,7 @@ def ver_ranking(ruta: Path) -> None:
 def configurar(config: dict[str, str | int | list[str]], ruta: Path) -> None:
 
     print("\nConfiguración actual:")
-    print(config)
+    print(config) # esto está feo
 
     config["min"] = int(input("Nuevo mínimo: "))
     config["max"] = int(input("Nuevo máximo: "))

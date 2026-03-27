@@ -1,4 +1,4 @@
-min=0
-max=5
-operaciones=+,*
+min=2
+max=17
+operaciones=*,-
 n_vidas=1
