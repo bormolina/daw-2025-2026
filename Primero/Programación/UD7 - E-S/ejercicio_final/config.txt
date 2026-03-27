@@ -1,0 +1,4 @@
+min=0
+max=5
+operaciones=+,*
+n_vidas=1
