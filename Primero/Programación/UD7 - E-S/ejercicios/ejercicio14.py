@@ -13,14 +13,12 @@ if __name__ == "__main__":
     letras = 0
 
     with open(ruta_quijote, "r", encoding="utf-8") as f:
-
         for linea in f:
             lineas += 1
             palabras += len(linea.split())
             letras += sum(letra.isalpha() for letra in linea)
 
     with open(ruta_salida, "w", encoding="utf-8") as f:
-
         f.write(
             f"El Quijote tiene {lineas} líneas {palabras} palabras y {letras} letras"
         )

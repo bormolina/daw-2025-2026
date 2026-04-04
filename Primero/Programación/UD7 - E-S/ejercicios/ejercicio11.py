@@ -32,13 +32,10 @@ if __name__ == "__main__":
     matematicos = []
 
     with open(ruta, "r", encoding="utf-8") as f:
-
         datos = json.load(f)
-
+        
         for d in datos:
-
             datos_aportacion = d["aportacion"]
-
             aportacion = Aportacion(
                 datos_aportacion["nombre"],
                 datos_aportacion["anio"],
