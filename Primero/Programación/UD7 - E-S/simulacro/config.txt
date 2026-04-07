@@ -1,0 +1,2 @@
+tipo_dado=d12
+num_tiradas=10
