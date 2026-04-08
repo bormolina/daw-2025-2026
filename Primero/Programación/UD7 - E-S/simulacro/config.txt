@@ -1,2 +1,2 @@
-tipo_dado=d12
-num_tiradas=10
+tipo_dado=d6
+num_tiradas=1000
