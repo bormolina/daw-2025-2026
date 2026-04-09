@@ -3,9 +3,9 @@ import random
 
 # En estos ejercicios te recomiendo siempre crar una fucnión leer config que reciba la ruta del fichero de configuración y devuelva un diccionaro (o una tupla si hay pocos campos). En este caso como solo hay dos campos, devuelvo una tupla pero cuando hay más es mejor devolver un diccionario (sino te vas a tener un if-elif muy grande)
 def leer_config(ruta: Path) -> tuple[str, int]:
+    tipo_dado = "d6"
+    num_tiradas = 1
     with open(ruta, "r", encoding="utf-8") as f:
-        tipo_dado = ""
-        num_tiradas = 0
 
         for linea in f:
             linea = linea.strip()

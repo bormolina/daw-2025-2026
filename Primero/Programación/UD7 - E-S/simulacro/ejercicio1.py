@@ -13,9 +13,6 @@ class Venta:
         return f"{self.id} - {self.producto} - {fecha_str} - {self.precio:.2f}€"
 
 
-def es_enero_2022(fecha: datetime) -> bool:
-    return fecha.month == 1 and fecha.year == 2022
-
 
 if __name__ == "__main__":
     ventas_enero_2022 = []
@@ -35,7 +32,8 @@ if __name__ == "__main__":
                 fecha = datetime(int(año_str), int(mes_str), int(dia_str))
                 precio = float(partes[3])
 
-                if es_enero_2022(fecha):
+                # Comprobamos que la venta es de enero de 2022, que es lo que nos interesa para el ejercicio
+                if fecha.month == 1 and fecha.year == 2022:
                     venta = Venta(id, producto, fecha, precio)
                     ventas_enero_2022.append(venta)
 
@@ -54,4 +52,4 @@ if __name__ == "__main__":
 
     # 4. Precio medio
     media = total / len(ventas_enero_2022)
-    print(f"Precio medio: {media:.2f}€")x
+    print(f"Precio medio: {media:.2f}€")
