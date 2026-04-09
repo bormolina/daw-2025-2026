@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "Tyrannosaurus Rex",
+    "periodo": "Cretacico",
+    "habitat": {
+      "tipo": "Terrestre",
+      "zona": "Bosque",
+      "clima": "Calido"
+    }
+  },
+  {
+    "nombre": "Triceratops",
+    "periodo": "Cretacico",
+    "habitat": {
+      "tipo": "Terrestre",
+      "zona": "Llanura",
+      "clima": "Templado"
+    }
+  },
+  {
+    "nombre": "Velociraptor",
+    "periodo": "Cretacico",
+    "habitat": {
+      "tipo": "Terrestre",
+      "zona": "Desierto",
+      "clima": "Seco"
+    }
+  },
+  {
+    "nombre": "Brachiosaurus",
+    "periodo": "Jurasico",
+    "habitat": {
+      "tipo": "Terrestre",
+      "zona": "Selva",
+      "clima": "Humedo"
+    }
+  },
+  {
+    "nombre": "Stegosaurus",
+    "periodo": "Jurasico",
+    "habitat": {
+      "tipo": "Terrestre",
+      "zona": "Llanura",
+      "clima": "Templado"
+    }
+  }
+]
