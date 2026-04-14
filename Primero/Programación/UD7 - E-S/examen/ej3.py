@@ -10,8 +10,8 @@ contenido_sin_lineas_vacias = [linea.strip() for linea in contenido if linea.str
 
 # Resultados
 apartado_a = contenido[6:27] 
-apartado_b = sorted(contenido_sin_lineas_vacias, key=lambda linea: len(linea))[-1]
-apartado_c = sorted(contenido_sin_lineas_vacias, key=lambda linea: linea.count("m"))[-1]
+apartado_b = max(contenido_sin_lineas_vacias, key=lambda linea: len(linea))
+apartado_c = max(contenido_sin_lineas_vacias, key=lambda linea: linea.count("m"))
 
 # Escribimos los resultados
 ruta_salida = Path(__file__).parent / "ejercicio3-resultado.txt"

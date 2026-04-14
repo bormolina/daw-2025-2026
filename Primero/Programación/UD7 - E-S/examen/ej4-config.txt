@@ -1,5 +1,5 @@
-inicio:10
-fin:20
-cantidad:10
-salida:fichero
-solo_primos:true
+inicio:-10
+fin:10
+cantidad:5
+salida:pantalla
+solo_primos:false

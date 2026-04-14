@@ -18,6 +18,7 @@ def leer_config() -> dict:
         "solo_primos": "false"
     }
 
+    # Si el fichero de configuración no existe, lo creamos con los valores por defecto y lo devolvemos
     if not ruta_config.exists():
         with open(ruta_config, "w", encoding="utf-8") as f:
             for clave, valor in config.items():
@@ -68,8 +69,8 @@ def generar_numeros(config: dict) -> list[int]:
 def mostrar_resultados(numeros: list[int], config: dict) -> None:
     if config["salida"] == "fichero":
         with open(ruta_salida, "w", encoding="utf-8") as f:
-            for n in numeros:
-                f.write(f"{n}\n")
+            for num in numeros:
+                f.write(f"{num}\n")
         print("Resultados guardados en fichero.")
     else:
         print("Resultados:")
