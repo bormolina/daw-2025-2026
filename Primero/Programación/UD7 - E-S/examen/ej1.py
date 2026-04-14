@@ -21,7 +21,7 @@ if __name__ == "__main__":
     cont_resto = 0
 
     with open(ruta, "r", encoding="utf-8") as f:
-        next(f)
+        next(f) # Nos saltamos la primera línea que es el encabezado
 
         for linea in f:
             linea = linea.strip()
