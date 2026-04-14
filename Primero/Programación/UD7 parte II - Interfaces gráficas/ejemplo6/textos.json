@@ -1,0 +1,30 @@
+{
+    "ES": {
+        "inicio_empezar": "Empezar",
+        "inicio_configurar": "Configurar",
+        "juego_tirar": "Tirar dado",
+        "juego_volver": "Volver",
+        "juego_pulsa": "Pulsa para tirar",
+        "juego_resultado": "Resultado: {resultado} (D{caras})",
+        "config_titulo_dado": "Tipo de dado",
+        "config_titulo_idioma": "Idioma",
+        "config_guardar": "Guardar",
+        "config_volver": "Volver",
+        "idioma_es": "Español",
+        "idioma_en": "Inglés"
+    },
+    "EN": {
+        "inicio_empezar": "Start",
+        "inicio_configurar": "Configure",
+        "juego_tirar": "Roll dice",
+        "juego_volver": "Back",
+        "juego_pulsa": "Press to roll",
+        "juego_resultado": "Result: {resultado} (D{caras})",
+        "config_titulo_dado": "Dice type",
+        "config_titulo_idioma": "Language",
+        "config_guardar": "Save",
+        "config_volver": "Back",
+        "idioma_es": "Spanish",
+        "idioma_en": "English"
+    }
+}
