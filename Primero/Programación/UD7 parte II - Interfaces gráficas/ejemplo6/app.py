@@ -12,7 +12,7 @@ class App:
     def __init__(self, root):
         self.root = root
         self.root.title("App Dados")
-        self.root.geometry("320x240")
+        self.root.geometry("800x600")
         self.root.resizable(False, False)
 
         # Carga de datos externos
@@ -34,7 +34,8 @@ class App:
 
     def cargar_config(self):
         try:
-            with open("config.json", "r", encoding="utf-8") as f:
+            ruta = Path(__file__).parent / "config.json"
+            with open(ruta, "r", encoding="utf-8") as f:
                 config = json.load(f)
 
             if "dado" not in config or "idioma" not in config:

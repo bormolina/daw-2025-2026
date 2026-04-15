@@ -15,7 +15,7 @@ class CalculadoraApp:
             font=("Arial", 20), 
             justify="right", 
             bd=5,   # border width
-            relief=tk.RAISED # Tipo de borde (puede ser RAISED, SUNKEN, GROOVE, RIDGE)
+            relief=tk.RIDGE # Tipo de borde (puede ser RAISED, SUNKEN, GROOVE, RIDGE)
         )
         self.entrada.pack(fill="both", padx=10, pady=10)
 
@@ -55,7 +55,7 @@ class CalculadoraApp:
             self.expresion = ""
         elif tecla == "=":
             try:
-                self.expresion = str(eval(self.expresion))
+                self.expresion = str(eval(self.expresion)) # Uso eval por motivos de simplicidad, pero en una aplicación real se debería usar un método más seguro para evaluar la expresión
             except Exception:
                 self.expresion = "ERROR"
         else:
