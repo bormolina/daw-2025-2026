@@ -26,7 +26,6 @@ db = DB(storage)  # Crear la BD
 connection = db.open()  # Abrir conexión
 root = connection.root()  # Objeto raíz (diccionario persistente)
 
-
 # Inicializar la lista si no existe
 if "items" not in root:
     root["items"] = PersistentList()
