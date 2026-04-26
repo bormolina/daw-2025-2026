@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <poblacion>48350000</poblacion>
+        <area>505990</area>
+        <siglas>ES</siglas>
+        <capital>
+            <nombre>Madrid</nombre>
+            <habitantes>3305000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>México</nombre>
+        <poblacion>129000000</poblacion>
+        <area>1964375</area>
+        <siglas>MX</siglas>
+        <capital>
+            <nombre>Ciudad de México</nombre>
+            <habitantes>9200000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Argentina</nombre>
+        <poblacion>46000000</poblacion>
+        <area>2780400</area>
+        <siglas>AR</siglas>
+        <capital>
+            <nombre>Buenos Aires</nombre>
+            <habitantes>3075000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Colombia</nombre>
+        <poblacion>52300000</poblacion>
+        <area>1141748</area>
+        <siglas>CO</siglas>
+        <capital>
+            <nombre>Bogotá</nombre>
+            <habitantes>7968000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Chile</nombre>
+        <poblacion>19700000</poblacion>
+        <area>756102</area>
+        <siglas>CL</siglas>
+        <capital>
+            <nombre>Santiago</nombre>
+            <habitantes>6170000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Perú</nombre>
+        <poblacion>34300000</poblacion>
+        <area>1285216</area>
+        <siglas>PE</siglas>
+        <capital>
+            <nombre>Lima</nombre>
+            <habitantes>9675000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Venezuela</nombre>
+        <poblacion>28900000</poblacion>
+        <area>916445</area>
+        <siglas>VE</siglas>
+        <capital>
+            <nombre>Caracas</nombre>
+            <habitantes>2245000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Ecuador</nombre>
+        <poblacion>18100000</poblacion>
+        <area>256370</area>
+        <siglas>EC</siglas>
+        <capital>
+            <nombre>Quito</nombre>
+            <habitantes>2011000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Uruguay</nombre>
+        <poblacion>3400000</poblacion>
+        <area>176215</area>
+        <siglas>UY</siglas>
+        <capital>
+            <nombre>Montevideo</nombre>
+            <habitantes>1319000</habitantes>
+        </capital>
+    </pais>
+
+    <pais>
+        <nombre>Paraguay</nombre>
+        <poblacion>6800000</poblacion>
+        <area>406752</area>
+        <siglas>PY</siglas>
+        <capital>
+            <nombre>Asunción</nombre>
+            <habitantes>525000</habitantes>
+        </capital>
+    </pais>
+</paises>

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+header {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    opacity: 0.95;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.grid-paises {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+}
+
+.tarjeta-pais {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-pais:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta-pais h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #1d4ed8;
+    font-size: 1.4rem;
+}
+
+.tarjeta-pais p {
+    margin: 0.4rem 0;
+}
+
+.capital {
+    margin-top: 1rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.capital h3 {
+    margin: 0 0 0.6rem 0;
+    font-size: 1rem;
+    color: #374151;
+}
+
+.mensaje,
+.error {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 12px;
+}
+
+.error {
+    color: #b91c1c;
+    font-weight: bold;
+}

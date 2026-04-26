@@ -1,0 +1,106 @@
+{
+    "paises": {
+        "pais": [
+            {
+                "nombre": "España",
+                "poblacion": "48350000",
+                "area": "505990",
+                "siglas": "ES",
+                "capital": {
+                    "nombre": "Madrid",
+                    "habitantes": "3305000"
+                }
+            },
+            {
+                "nombre": "México",
+                "poblacion": "129000000",
+                "area": "1964375",
+                "siglas": "MX",
+                "capital": {
+                    "nombre": "Ciudad de México",
+                    "habitantes": "9200000"
+                }
+            },
+            {
+                "nombre": "Argentina",
+                "poblacion": "46000000",
+                "area": "2780400",
+                "siglas": "AR",
+                "capital": {
+                    "nombre": "Buenos Aires",
+                    "habitantes": "3075000"
+                }
+            },
+            {
+                "nombre": "Colombia",
+                "poblacion": "52300000",
+                "area": "1141748",
+                "siglas": "CO",
+                "capital": {
+                    "nombre": "Bogotá",
+                    "habitantes": "7968000"
+                }
+            },
+            {
+                "nombre": "Chile",
+                "poblacion": "19700000",
+                "area": "756102",
+                "siglas": "CL",
+                "capital": {
+                    "nombre": "Santiago",
+                    "habitantes": "6170000"
+                }
+            },
+            {
+                "nombre": "Perú",
+                "poblacion": "34300000",
+                "area": "1285216",
+                "siglas": "PE",
+                "capital": {
+                    "nombre": "Lima",
+                    "habitantes": "9675000"
+                }
+            },
+            {
+                "nombre": "Venezuela",
+                "poblacion": "28900000",
+                "area": "916445",
+                "siglas": "VE",
+                "capital": {
+                    "nombre": "Caracas",
+                    "habitantes": "2245000"
+                }
+            },
+            {
+                "nombre": "Ecuador",
+                "poblacion": "18100000",
+                "area": "256370",
+                "siglas": "EC",
+                "capital": {
+                    "nombre": "Quito",
+                    "habitantes": "2011000"
+                }
+            },
+            {
+                "nombre": "Uruguay",
+                "poblacion": "3400000",
+                "area": "176215",
+                "siglas": "UY",
+                "capital": {
+                    "nombre": "Montevideo",
+                    "habitantes": "1319000"
+                }
+            },
+            {
+                "nombre": "Paraguay",
+                "poblacion": "6800000",
+                "area": "406752",
+                "siglas": "PY",
+                "capital": {
+                    "nombre": "Asunción",
+                    "habitantes": "525000"
+                }
+            }
+        ]
+    }
+}
