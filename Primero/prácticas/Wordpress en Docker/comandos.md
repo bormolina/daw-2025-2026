@@ -434,3 +434,570 @@ docker rmi hello-world
 docker rmi nginx
 ```
 
+## Crear un contenedor con WordPress usando Docker Compose
+
+Una vez comprobado que Docker funciona correctamente, vamos a crear un entorno básico de WordPress.
+
+En este caso no usaremos un único contenedor, porque WordPress necesita varios servicios para funcionar:
+
+```text
+WordPress       Aplicación web
+Base de datos   MariaDB
+```
+
+Para gestionar varios contenedores relacionados usaremos `docker compose`.
+
+---
+
+## 1. Crear la carpeta del proyecto
+
+Creamos una carpeta para guardar la configuración del entorno:
+
+```bash
+mkdir wordpress-docker
+cd wordpress-docker
+```
+
+Dentro de esta carpeta guardaremos el archivo `compose.yaml` y algunas carpetas locales para conservar datos.
+
+---
+
+## 2. Crear la estructura de carpetas
+
+Creamos una carpeta local para los archivos de WordPress que nos interesa conservar y modificar:
+
+```bash
+mkdir wp-content
+```
+
+La carpeta `wp-content` es importante porque ahí WordPress guarda elementos como:
+
+```text
+themes      Temas
+plugins     Plugins
+uploads     Archivos subidos desde WordPress
+```
+
+De esta forma, aunque borremos y volvamos a crear los contenedores, podremos conservar temas, plugins y archivos subidos.
+
+La estructura inicial será:
+
+```text
+wordpress-docker/
+└── wp-content/
+```
+
+---
+
+## 3. Crear el archivo `compose.yaml`
+
+Dentro de la carpeta `wordpress-docker`, creamos un archivo llamado:
+
+```text
+compose.yaml
+```
+
+El contenido del archivo será el siguiente:
+
+```yaml
+# En este archivo vamos a definir los contenedores necesarios
+# para ejecutar WordPress con Docker Compose.
+
+# Servicios que formarán parte de nuestra aplicación.
+services:
+
+  # Primer servicio: base de datos.
+  # Lo llamamos "db" porque será la base de datos usada por WordPress.
+  db:
+    # Imagen que usará este contenedor.
+    # En este caso usamos MariaDB, una base de datos compatible con MySQL.
+    # lastest significa: 'descargate la última versión disponible'
+    image: mariadb:latest
+
+    # Nombre concreto que tendrá el contenedor.
+    # Esto nos ayudará a identificarlo más fácilmente.
+    container_name: wordpress-db
+
+    # Si el contenedor se para por un error, o si reiniciamos el ordenador,
+    # Docker intentará volver a levantarlo automáticamente, salvo que
+    # lo hayamos parado manualmente.
+    restart: unless-stopped
+
+    # Variables de entorno.
+    # Sirven para configurar MariaDB al crear el contenedor.
+    environment:
+
+      # Nombre de la base de datos que se creará para WordPress.
+      MARIADB_DATABASE: wordpress
+
+      # Usuario normal que usará WordPress para conectarse a la base de datos.
+      MARIADB_USER: wordpress_user
+
+      # Contraseña del usuario anterior.
+      # En un entorno real debería ser una contraseña segura.
+      MARIADB_PASSWORD: wordpress_password
+
+      # Contraseña del usuario administrador de MariaDB.
+      # En un entorno real también debería ser segura.
+      MARIADB_ROOT_PASSWORD: root_password
+
+    # Volúmenes del contenedor.
+    # Los volúmenes permiten conservar datos aunque el contenedor se borre.
+    volumes:
+      # Guardamos los datos internos de MariaDB en un volumen llamado db_data.
+      # /var/lib/mysql es la carpeta donde MariaDB guarda sus bases de datos.
+      - db_data:/var/lib/mysql
+
+
+  # Segundo servicio: WordPress.
+  # Este será el contenedor que ejecuta la aplicación web.
+  wordpress:
+
+    # Última versión de la imagen oficial de WordPress.
+    image: wordpress:latest
+
+    # Nombre concreto que tendrá el contenedor.
+    container_name: wordpress-web
+
+    restart: unless-stopped
+
+    # Indica que WordPress depende de la base de datos.
+    # Docker Compose iniciará primero el servicio "db".
+    depends_on:
+      - db
+
+    # Puertos.
+    # Permiten acceder desde nuestro ordenador al servicio web del contenedor.
+    ports:
+
+      # Puerto externo(host):puerto interno(contendor)
+      # 8080 es el puerto que usaremos en nuestro ordenador.
+      # 80 es el puerto web dentro del contenedor.
+      - "8080:80"
+
+    # Variables de entorno para configurar WordPress.
+    environment:
+
+      # Servidor de base de datos.
+      # Usamos "db" porque ese es el nombre del servicio de MariaDB.
+      WORDPRESS_DB_HOST: db
+
+      # Nombre de la base de datos.
+      # Debe coincidir con MARIADB_DATABASE.
+      WORDPRESS_DB_NAME: wordpress
+
+      # Usuario de la base de datos.
+      # Debe coincidir con MARIADB_USER.
+      WORDPRESS_DB_USER: wordpress_user
+
+      # Contraseña de la base de datos.
+      # Debe coincidir con MARIADB_PASSWORD.
+      WORDPRESS_DB_PASSWORD: wordpress_password
+
+    # Volúmenes de WordPress.
+    volumes:
+
+      # Conectamos la carpeta local ./wp-content
+      # con la carpeta interna de WordPress /var/www/html/wp-content.
+      #
+      # Esto nos permite conservar y modificar temas, plugins y archivos subidos
+      # desde fuera del contenedor.
+      - ./wp-content:/var/www/html/wp-content
+
+
+# Sección de volúmenes del contenedor.
+# En la sección final volumes solo se declaran los volúmenes gestionados por Docker, como db_data. Las carpetas locales enlazadas directamente desde el proyecto, como ./wp-content, no se declaran ahí porque ya se indican con su ruta dentro del propio servicio.
+volumes:
+  # Volumen donde se guardará la base de datos de MariaDB.
+  db_data:
+```
+
+---
+
+## 4. Explicación del archivo `compose.yaml`
+
+El archivo define dos servicios:
+
+```text
+db          Base de datos MariaDB
+wordpress   Aplicación WordPress
+```
+
+El servicio `db` usa la imagen:
+
+```yaml
+image: mariadb:11
+```
+
+Esta imagen crea un contenedor con MariaDB, que será la base de datos usada por WordPress.
+
+El servicio `wordpress` usa la imagen:
+
+```yaml
+image: wordpress:latest
+```
+
+Esta imagen contiene WordPress junto con el entorno necesario para ejecutarlo.
+
+---
+
+## 5. Puertos
+
+En la parte de WordPress aparece:
+
+```yaml
+ports:
+  - "8080:80"
+```
+
+Esto significa:
+
+```text
+8080    Puerto de nuestro ordenador
+80      Puerto interno del contenedor
+```
+
+Por eso accederemos a WordPress desde el navegador usando:
+
+```text
+http://localhost:8080
+```
+
+---
+
+## 6. Variables de entorno
+
+Las variables de entorno sirven para pasar configuración a los contenedores.
+
+En la base de datos tenemos:
+
+```yaml
+MARIADB_DATABASE: wordpress
+MARIADB_USER: wordpress_user
+MARIADB_PASSWORD: wordpress_password
+MARIADB_ROOT_PASSWORD: root_password
+```
+
+Con esto se crea una base de datos llamada `wordpress` y un usuario llamado `wordpress_user`.
+
+En WordPress tenemos:
+
+```yaml
+WORDPRESS_DB_HOST: db
+WORDPRESS_DB_NAME: wordpress
+WORDPRESS_DB_USER: wordpress_user
+WORDPRESS_DB_PASSWORD: wordpress_password
+```
+
+Estos datos permiten que WordPress se conecte al contenedor de la base de datos.
+
+El valor importante es:
+
+```yaml
+WORDPRESS_DB_HOST: db
+```
+
+`db` es el nombre del servicio de la base de datos dentro de Docker Compose. Docker permite que los contenedores del mismo proyecto se comuniquen entre sí usando el nombre del servicio.
+
+---
+
+## 7. Volúmenes
+
+En la base de datos aparece:
+
+```yaml
+volumes:
+  - db_data:/var/lib/mysql
+```
+
+Esto guarda los datos de MariaDB en un volumen llamado `db_data`.
+
+Gracias a esto, si paramos o recreamos el contenedor, la base de datos no se pierde automáticamente.
+
+En WordPress aparece:
+
+```yaml
+volumes:
+  - ./wp-content:/var/www/html/wp-content
+```
+
+Esto conecta la carpeta local `wp-content` con la carpeta interna de WordPress.
+
+Es decir:
+
+```text
+./wp-content                  Carpeta en nuestro ordenador
+/var/www/html/wp-content      Carpeta dentro del contenedor
+```
+
+Esto nos permitirá conservar y modificar temas, plugins y archivos subidos.
+
+---
+
+## 8. Levantar WordPress
+
+Desde la carpeta donde está el archivo `compose.yaml`, ejecutamos:
+
+```bash
+docker compose up -d
+```
+
+La opción `-d` significa que los contenedores se ejecutarán en segundo plano.
+
+Docker descargará las imágenes necesarias y creará los contenedores.
+
+---
+
+## 9. Comprobar que los contenedores están funcionando
+
+Ejecutamos:
+
+```bash
+docker ps
+```
+
+Deberían aparecer dos contenedores:
+
+```text
+wordpress-web
+wordpress-db
+```
+
+También podemos usar:
+
+```bash
+docker compose ps
+```
+
+Este comando muestra los contenedores del proyecto actual de Docker Compose.
+
+---
+
+## 10. Abrir WordPress en el navegador
+
+Abrimos el navegador y entramos en:
+
+```text
+http://localhost:8080
+```
+
+Si todo funciona correctamente, aparecerá la pantalla inicial de instalación de WordPress.
+
+Ahí podremos elegir idioma, crear el usuario administrador y completar la instalación.
+
+---
+
+## 11. Instalar plugins o temas
+
+Una vez dentro del panel de administración de WordPress, podemos instalar plugins y temas desde la propia interfaz.
+
+Por ejemplo:
+
+```text
+Plugins → Añadir nuevo
+Apariencia → Temas
+```
+
+Como hemos enlazado la carpeta `wp-content`, los plugins y temas quedarán guardados en la carpeta local:
+
+```text
+wordpress-docker/wp-content/
+```
+
+Por ejemplo, después de instalar plugins o temas, la estructura puede quedar así:
+
+```text
+wordpress-docker/
+├── compose.yaml
+└── wp-content/
+    ├── plugins/
+    ├── themes/
+    └── uploads/
+```
+
+---
+
+## 12. Parar WordPress
+
+Para parar los contenedores sin borrarlos:
+
+```bash
+docker compose stop
+```
+
+Para volver a iniciarlos:
+
+```bash
+docker compose start
+```
+
+---
+
+## 13. Parar y eliminar los contenedores
+
+Para parar y eliminar los contenedores del proyecto:
+
+```bash
+docker compose down
+```
+
+Esto elimina los contenedores, pero no elimina automáticamente el volumen de la base de datos.
+
+Por tanto, los datos de WordPress deberían conservarse.
+
+---
+
+## 14. Borrar también la base de datos
+
+Si queremos borrar completamente el entorno, incluyendo la base de datos, usamos:
+
+```bash
+docker compose down -v
+```
+
+La opción `-v` elimina también los volúmenes.
+
+Cuidado: esto borra la base de datos de WordPress.
+
+---
+
+## 15. Ver los logs
+
+Si algo falla, podemos ver los mensajes de los contenedores con:
+
+```bash
+docker compose logs
+```
+
+Para ver los logs en tiempo real:
+
+```bash
+docker compose logs -f
+```
+
+También podemos ver los logs de un servicio concreto:
+
+```bash
+docker compose logs wordpress
+```
+
+O de la base de datos:
+
+```bash
+docker compose logs db
+```
+
+---
+
+## 16. Reiniciar el entorno
+
+Para reiniciar los contenedores:
+
+```bash
+docker compose restart
+```
+
+También podemos reiniciar solo WordPress:
+
+```bash
+docker compose restart wordpress
+```
+
+O solo la base de datos:
+
+```bash
+docker compose restart db
+```
+
+---
+
+## 17. Entrar en el contenedor de WordPress
+
+Podemos abrir una terminal dentro del contenedor de WordPress:
+
+```bash
+docker exec -it wordpress-web bash
+```
+
+Esto puede ser útil para inspeccionar archivos dentro del contenedor.
+
+Para salir:
+
+```bash
+exit
+```
+
+---
+
+## 18. Resumen rápido
+
+Crear y arrancar WordPress:
+
+```bash
+mkdir wordpress-docker
+cd wordpress-docker
+mkdir wp-content
+docker compose up -d
+```
+
+Comprobar contenedores:
+
+```bash
+docker ps
+docker compose ps
+```
+
+Abrir WordPress:
+
+```text
+http://localhost:8080
+```
+
+Parar WordPress:
+
+```bash
+docker compose stop
+```
+
+Volver a iniciarlo:
+
+```bash
+docker compose start
+```
+
+Eliminar contenedores:
+
+```bash
+docker compose down
+```
+
+Eliminar contenedores y base de datos:
+
+```bash
+docker compose down -v
+```
+
+Ver logs:
+
+```bash
+docker compose logs
+docker compose logs -f
+```
+
+---
+
+## Idea clave
+
+Con `docker run` podemos crear contenedores individuales, como hicimos con `nginx`.
+
+Con `docker compose` podemos definir una aplicación formada por varios contenedores relacionados.
+
+WordPress necesita al menos dos partes:
+
+```text
+WordPress
+Base de datos
+```
+
+Por eso `docker compose` es una forma más cómoda y ordenada de levantar este tipo de entorno.
+
