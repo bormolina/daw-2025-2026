@@ -8,18 +8,6 @@ En esta práctica el alumnado investigará los conceptos fundamentales de Scrum 
 
 ---
 
-# Objetivos
-
-Con esta práctica se pretende que el alumnado:
-
-- Comprenda qué es Scrum.
-- Conozca los principales roles y eventos de Scrum.
-- Aprenda cómo se organizan tareas en equipos tecnológicos.
-- Utilice herramientas habituales del sector.
-- Trabaje de forma colaborativa.
-
----
-
 # PARTE 1 — DOCUMENTO INDIVIDUAL SOBRE SCRUM
 
 Cada alumno deberá entregar individualmente un documento de texto mediante Google Classroom.
@@ -73,12 +61,7 @@ Explicar para qué sirven herramientas como:
 
 # Entrega de la Parte 1
 
-La entrega se realizará mediante Google Classroom en formato:
-
-- Documento de Google
-o
-- DOCX
-
+La entrega se realizará mediante un ficheor de texto de Google Classroom 
 ---
 
 # PARTE 2 — PROYECTO Y TABLERO KANBAN (GRUPAL)
@@ -157,13 +140,7 @@ El documento deberá incluir una captura del tablero Kanban.
 
 # Entrega de la Parte 2
 
-La entrega se realizará mediante Google Classroom en formato:
-
-- Documento de Google
-o
-- DOCX
-
-La entrega será grupal.
+La entrega se realizará mediante un ficheor de texto de Google Classroom. La entrega será grupal. En la portada deben ir los nombres de todos los integrantes del equipo.
 
 ---
 
@@ -194,33 +171,38 @@ El grupo deberá explicar:
 
 # Preguntas posteriores
 
-Tras la simulación se podrán realizar preguntas relacionadas con:
-
-- Conceptos de Scrum.
-- Roles.
-- Eventos.
-- Herramientas utilizadas.
-- Organización del proyecto.
-- Funcionamiento del tablero Kanban.
+Tras la simulación realizarán preguntas indiviudales sobre la metodología SCRUM (primer documento). 
 
 ---
 
 # Evaluación
 
-La práctica se evaluará mediante:
-
-## Parte 1 — Documento individual
-
-Se valorará:
-
-- Claridad de las explicaciones.
-- Comprensión de Scrum.
-- Correcta explicación de roles y eventos.
-- Calidad general del documento.
+La práctica se evaluará sobre 100 puntos distribuidos de la siguiente forma.
 
 ---
 
-## Parte 2 — Documento grupal
+## Parte 1 — Documento individual sobre Scrum (20 puntos)
+
+Se valorará:
+
+- Comprensión de Scrum.
+- Claridad de las explicaciones.
+- Correcta explicación de roles y eventos.
+- Calidad general del documento.
+
+### Rúbrica
+
+- **20 puntos** → Documento completo, claro y correctamente explicado.
+- **15 puntos** → Documento correcto con pequeños fallos o explicaciones poco desarrolladas.
+- **10 puntos** → Documento incompleto o con varios conceptos incorrectos.
+- **5 puntos** → Documento muy incompleto o con errores graves de comprensión.
+- **0 puntos** → No entregado o contenido no relacionado con la práctica.
+
+---
+
+## Parte 2 — Documento grupal y tablero Kanban (20 puntos)
+
+La nota de esta parte será la misma para todos los integrantes del grupo.
 
 Se valorará:
 
@@ -229,23 +211,47 @@ Se valorará:
 - Correcta distribución de tareas.
 - Comprensión de los roles Scrum.
 
+### Rúbrica
+
+- **20 puntos** → Proyecto bien organizado, tablero completo y roles correctamente definidos.
+- **15 puntos** → Buen trabajo general con pequeños fallos de organización o detalle.
+- **10 puntos** → Proyecto funcional pero con varios problemas de organización o comprensión.
+- **5 puntos** → Proyecto muy incompleto o mal organizado.
+- **0 puntos** → No entregado o trabajo no válido.
+
 ---
 
-## Parte 3 — Simulación y preguntas
+## Parte 3 — Simulación Scrum (20 puntos)
+
+La nota de esta parte será individual.
 
 Se valorará:
 
 - Participación durante la simulación.
-- Comprensión de Scrum.
-- Capacidad para explicar conceptos.
-- Respuestas a las preguntas realizadas.
+- Comprensión del funcionamiento de Scrum.
+- Capacidad para explicar tareas y organización del Sprint.
+
+### Rúbrica
+
+- **20 puntos** → Participación clara, correcta y demostrando buena comprensión.
+- **15 puntos** → Buena participación con pequeños errores o dudas.
+- **10 puntos** → Participación básica con varios errores de comprensión.
+- **5 puntos** → Participación mínima o muy deficiente.
+- **0 puntos** → No participa en la simulación.
 
 ---
 
-# Qué aprenderás con esta práctica
+## Parte 4 — Preguntas individuales sobre Scrum (40 puntos)
 
-- Cómo trabajan los equipos tecnológicos reales.
-- Organización de tareas y proyectos.
-- Introducción a metodologías ágiles.
-- Trabajo colaborativo.
-- Herramientas utilizadas en empresas de desarrollo software.
+Tras la simulación se realizarán dos preguntas individuales relacionadas con Scrum.
+
+Cada pregunta tendrá un valor de 20 puntos.
+
+### Rúbrica por pregunta
+
+- **20 puntos** → Respuesta correcta, clara y bien razonada.
+- **15 puntos** → Respuesta correcta con pequeños fallos o imprecisiones.
+- **10 puntos** → Respuesta parcialmente correcta.
+- **5 puntos** → Respuesta muy incompleta o con errores importantes.
+- **0 puntos** → No responde o la respuesta no tiene relación con la pregunta.
+
