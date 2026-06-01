@@ -87,6 +87,8 @@ En esta unidad vamos a usar el fichero `games_db.py` para crear una base de dato
 
 Lo que sí nos interesa entender es la **estructura** de la base de datos que genera.
 
+Para facilitarte la visualización y exploración de bases de datos SQLite (`.db`), puedes instalar en Visual Studio Code extensiones como `SQLite Viewer` o `SQLite`, que permiten ver tablas, registros y ejecutar consultas directamente desde el editor.
+
 ### Tabla `usuarios`
 
 La tabla `usuarios` guarda la información básica de cada usuario.
