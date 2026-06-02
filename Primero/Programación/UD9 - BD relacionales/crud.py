@@ -105,7 +105,7 @@ def obtener_producto(conexion: sqlite3.Connection, producto_id: int) -> Item | N
         WHERE id = ?
     """, (producto_id,))
 
-    fila = cursor.fetchone()
+    fila = cursor.fetchoneItem()
 
     if fila is None:
         return None

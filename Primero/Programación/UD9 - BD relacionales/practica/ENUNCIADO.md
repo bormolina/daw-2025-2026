@@ -189,5 +189,7 @@ El alumno deberá localizarlo, explicar qué ocurre y corregirlo.
 | Puntuación | Criterio |
 |---|---|
 | 20 puntos | Encuentra el error, explica la causa y lo corrige correctamente. |
+| 15 puntos | Encuentra el error y consigue corregirlo, pero tarda en llegar a la solución, muestra dudas o necesita verificar varios intentos antes de resolverlo. |
 | 10 puntos | Encuentra el error o se acerca a la solución, pero necesita ayuda para corregirlo. |
+| 5 puntos | No logra resolver el error, pero identifica parcialmente la zona problemática o plantea hipótesis razonables que muestran comprensión parcial del problema. |
 | 0 puntos | No consigue localizar ni resolver el error. |

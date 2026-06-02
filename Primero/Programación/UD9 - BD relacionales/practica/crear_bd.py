@@ -2,7 +2,7 @@ from pathlib import Path
 import sqlite3
 
 
-RUTA_BD = Path(__file__).parent / "coleccion_vinilos.bd"
+RUTA_BD = Path(__file__).parent / "coleccion_vinilos.db"
 
 
 def conectar() -> sqlite3.Connection:
