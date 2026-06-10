@@ -20,7 +20,9 @@ class Item:
 
 
 def conectar() -> sqlite3.Connection:
-    return sqlite3.connect(RUTA_BD)
+    conexion = sqlite3.connect(RUTA_BD)
+    conexion.execute("PRAGMA foreign_keys = ON")
+    return conexion
 
 
 def obtener_productos(conexion: sqlite3.Connection) -> list[Item]:
@@ -59,6 +61,7 @@ def mostrar_productos(conexion: sqlite3.Connection) -> None:
 
 def pedir_precio(mensaje: str) -> float:
     while True:
+        # Cambiamos la coma por un punto para aceptar precios escritos como 12,50 o 12.50.
         texto = input(mensaje).strip().replace(",", ".")
 
         try:
@@ -86,10 +89,12 @@ def crear_producto(conexion: sqlite3.Connection) -> None:
     cursor = conexion.cursor()
 
     try:
+        # Los ? son marcadores de posicion: SQLite coloca ahi los valores de la tupla de forma segura.
         cursor.execute("""
             INSERT INTO stock (producto, categoria, precio)
             VALUES (?, ?, ?)
         """, (producto, categoria, precio))
+        # commit() guarda definitivamente el INSERT en la base de datos.
         conexion.commit()
         print("Producto creado correctamente.")
     except sqlite3.IntegrityError as error:
@@ -105,7 +110,8 @@ def obtener_producto(conexion: sqlite3.Connection, producto_id: int) -> Item | N
         WHERE id = ?
     """, (producto_id,))
 
-    fila = cursor.fetchoneItem()
+    # fetchone() recoge una sola fila del SELECT. Si no encuentra nada, devuelve None.
+    fila = cursor.fetchone()
 
     if fila is None:
         return None
@@ -182,6 +188,7 @@ def borrar_producto(conexion: sqlite3.Connection, producto_id: int) -> None:
 
     conexion.commit()
 
+    # rowcount indica cuantas filas ha afectado el DELETE y por lo tanto sabemos si se ha borrado algo o no.
     if cursor.rowcount == 0:
         print("No existe ningun producto con ese id.")
     else:
@@ -193,6 +200,7 @@ def procesar_opcion(conexion: sqlite3.Connection, opcion: str) -> bool:
         crear_producto(conexion)
     elif opcion.lower() == "s":
         return False
+    # Si empieza por -, interpretamos el numero como un id que se quiere borrar y luego comprobamos que el resto de la cadena sea un numero.
     elif opcion.startswith("-") and opcion[1:].isdigit():
         borrar_producto(conexion, int(opcion[1:]))
     elif opcion.isdigit():
